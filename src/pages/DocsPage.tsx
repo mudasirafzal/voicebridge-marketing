@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import SEO from '../components/SEO'
 import AnimatedSection from '../components/ui/AnimatedSection'
+import AppCTAButtons from '../components/ui/AppCTAButtons'
 import { ChevronRight, ExternalLink } from 'lucide-react'
 
 const sections = [
@@ -422,14 +423,7 @@ export default function DocsPage() {
                       Email us
                     </a>
                   </div>
-                  <a
-                    href="https://voicebridge-web.vercel.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1.5 px-4 py-2 bg-violet-600 text-white text-sm font-medium rounded-xl hover:bg-violet-700 transition-colors"
-                  >
-                    Open App <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
+                  <AppCTAButtons theme="onwhite" size="compact" showComingSoon={false} />
                 </div>
               </div>
             </AnimatedSection>

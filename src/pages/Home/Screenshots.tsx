@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import AnimatedSection from '../../components/ui/AnimatedSection'
+import AppCTAButtons from '../../components/ui/AppCTAButtons'
 import { PhoneMockup, BrowserMockup } from '../../components/ui/DeviceMockup'
 import BoardScreenshot from '../../components/screenshots/BoardScreenshot'
 import AlertsScreenshot from '../../components/screenshots/AlertsScreenshot'
@@ -110,14 +111,9 @@ export default function Screenshots() {
         {/* Bottom CTA */}
         <AnimatedSection variant="fadeUp" delay={0.2} className="text-center mt-12">
           <p className="text-slate-500 text-sm mb-4">Ready to see it live?</p>
-          <a
-            href="https://voicebridge-web.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-violet-600 text-white rounded-xl font-semibold hover:bg-violet-700 transition-colors shadow-lg shadow-violet-500/25"
-          >
-            Start Here →
-          </a>
+          <div className="flex justify-center">
+            <AppCTAButtons theme="onwhite" />
+          </div>
         </AnimatedSection>
       </div>
     </section>

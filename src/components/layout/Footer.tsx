@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { MessageCircle } from 'lucide-react'
+import AppCTAButtons from '../ui/AppCTAButtons'
 
 const footerLinks = {
   Product: [
@@ -60,14 +61,7 @@ export default function Footer() {
           <p className="text-sm text-slate-500">
             © 2026 VoiceBridge. Built with ❤️ for autism families.
           </p>
-          <a
-            href="https://voicebridge-web.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm text-violet-400 hover:text-violet-300 transition-colors"
-          >
-            Launch App →
-          </a>
+          <AppCTAButtons theme="dark" size="compact" showComingSoon={false} />
         </div>
       </div>
     </footer>

@@ -1,5 +1,6 @@
 import SEO from '../components/SEO'
 import AnimatedSection from '../components/ui/AnimatedSection'
+import AppCTAButtons from '../components/ui/AppCTAButtons'
 
 const useCases = [
   {
@@ -164,14 +165,9 @@ export default function UseCasesPage() {
             <p className="text-violet-100 mb-8">
               Whatever your situation, VoiceBridge can be customized to fit. Start here today — no commitment required.
             </p>
-            <a
-              href="https://voicebridge-web.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block px-8 py-4 bg-white text-violet-700 font-bold rounded-xl hover:scale-105 transition-transform"
-            >
-              Get Started →
-            </a>
+            <div className="flex justify-center">
+              <AppCTAButtons theme="light" />
+            </div>
           </AnimatedSection>
         </div>
       </section>

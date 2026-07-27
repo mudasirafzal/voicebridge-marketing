@@ -1,5 +1,6 @@
 import SEO from '../components/SEO'
 import AnimatedSection from '../components/ui/AnimatedSection'
+import AppCTAButtons from '../components/ui/AppCTAButtons'
 import { Link } from 'react-router-dom'
 
 const detailedSteps = [
@@ -209,15 +210,10 @@ export default function HowItWorksPage() {
           <AnimatedSection variant="fadeUp">
             <h2 className="text-3xl font-black text-white mb-4">Ready to get started?</h2>
             <p className="text-violet-100 mb-8">Set up your child's board in less than 5 minutes.</p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="https://voicebridge-web.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 bg-white text-violet-700 font-bold rounded-xl hover:scale-105 transition-transform"
-              >
-                Start Here →
-              </a>
+            <div className="flex justify-center">
+              <AppCTAButtons theme="light" />
+            </div>
+            <div className="mt-6 flex justify-center">
               <Link to="/docs" className="px-6 py-3 border-2 border-white/60 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors">
                 Read the Docs
               </Link>

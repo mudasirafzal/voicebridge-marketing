@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion'
-import { ArrowRight, Play, Shield, Smartphone, Globe } from 'lucide-react'
+import { Play, Shield, Smartphone, Globe } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PhoneMockup } from '../../components/ui/DeviceMockup'
 import BoardScreenshot from '../../components/screenshots/BoardScreenshot'
+import AppCTAButtons from '../../components/ui/AppCTAButtons'
 
 const fadeUp = {
   hidden: { opacity: 0, y: 30 },
@@ -77,22 +78,14 @@ export default function Hero() {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="flex flex-col sm:flex-row gap-4 mb-10"
+              className="mb-10"
             >
-              <a
-                href="https://voicebridge-web.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gradient-to-r from-violet-600 to-pink-500 text-white font-semibold rounded-xl shadow-xl shadow-violet-500/30 hover:shadow-violet-500/50 hover:scale-105 transition-all text-sm"
-              >
-                Try VoiceBridge
-                <ArrowRight className="w-4 h-4" />
-              </a>
+              <AppCTAButtons theme="dark" />
               <Link
                 to="/how-it-works"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-white/10 border border-white/20 text-white font-semibold rounded-xl hover:bg-white/20 transition-all text-sm"
+                className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-slate-300 hover:text-white transition-colors"
               >
-                <div className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center">
+                <div className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center">
                   <Play className="w-3 h-3 text-white fill-white ml-0.5" />
                 </div>
                 Watch How It Works

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { AnimatePresence, motion } from 'framer-motion'
-import { Menu, X, MessageCircle, ExternalLink } from 'lucide-react'
+import { Menu, X, MessageCircle } from 'lucide-react'
+import AppCTAButtons from '../ui/AppCTAButtons'
 
 const navLinks = [
   { to: '/', label: 'Home' },
@@ -66,16 +67,8 @@ export default function Navbar() {
           </div>
 
           {/* CTA */}
-          <div className="hidden lg:flex items-center gap-3">
-            <a
-              href="https://voicebridge-web.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 px-4 py-2 bg-gradient-to-r from-violet-600 to-pink-500 text-white text-sm font-semibold rounded-xl shadow-lg shadow-violet-500/30 hover:shadow-violet-500/50 hover:scale-105 transition-all"
-            >
-              Try VoiceBridge
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
+          <div className="hidden lg:flex items-center">
+            <AppCTAButtons theme="onwhite" size="compact" showComingSoon={false} />
           </div>
 
           {/* Mobile menu button */}
@@ -117,14 +110,9 @@ export default function Navbar() {
                   {link.label}
                 </NavLink>
               ))}
-              <a
-                href="https://voicebridge-web.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-2 px-4 py-3 bg-gradient-to-r from-violet-600 to-pink-500 text-white text-sm font-semibold rounded-xl text-center"
-              >
-                Try VoiceBridge →
-              </a>
+              <div className="mt-2" onClick={() => setIsOpen(false)}>
+                <AppCTAButtons theme="onwhite" />
+              </div>
             </div>
           </motion.div>
         )}

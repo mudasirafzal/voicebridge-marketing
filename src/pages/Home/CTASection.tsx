@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
 import AnimatedSection from '../../components/ui/AnimatedSection'
+import AppCTAButtons from '../../components/ui/AppCTAButtons'
 
 export default function CTASection() {
   return (
@@ -30,19 +30,13 @@ export default function CTASection() {
           <p className="text-lg text-white/80 mb-10 max-w-xl mx-auto">
             Join hundreds of families who are already using VoiceBridge to transform how their loved ones communicate. Set up takes less than 5 minutes.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://voicebridge-web.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-violet-700 font-bold rounded-xl shadow-xl hover:shadow-2xl hover:scale-105 transition-all"
-            >
-              Get Started
-              <ArrowRight className="w-5 h-5" />
-            </a>
+          <div className="flex justify-center">
+            <AppCTAButtons theme="light" />
+          </div>
+          <div className="mt-6 flex justify-center">
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/20 border border-white/40 text-white font-bold rounded-xl hover:bg-white/30 transition-all"
+              className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white/20 border border-white/40 text-white font-bold rounded-xl hover:bg-white/30 transition-all"
             >
               Contact Us
             </Link>
