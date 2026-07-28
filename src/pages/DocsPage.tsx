@@ -14,7 +14,7 @@ const sections = [
       body: `VoiceBridge works across two platforms: a web dashboard for caregivers and parents, and a mobile app (iOS & Android) that turns any phone or tablet into a child's communication board.
 
 **Step 1: Create Your Account**
-Visit voicebridge-web.vercel.app and click "Sign Up". Choose whether you're signing up as a Parent/Caregiver or a Therapy Center. Enter your email address and create a secure password.
+Visit voicebridge.website and click "Sign Up". Choose whether you're signing up as a Parent/Caregiver or a Therapy Center. Enter your email address and create a secure password.
 
 **Step 2: Add a Profile**
 Click "+ Add" from your dashboard. You can provide:

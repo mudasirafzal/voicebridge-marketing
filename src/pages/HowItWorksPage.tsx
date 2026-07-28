@@ -44,14 +44,7 @@ const detailedSteps = [
     details: ['Push notification arrives within seconds', 'Notification shows child name + phrase', 'Acknowledge with one tap'],
     color: 'blue',
   },
-  {
-    number: '06',
-    icon: '📊',
-    title: 'Track & Improve Over Time',
-    description: 'Review your child\'s daily and weekly communication history. See which cards they use most, identify new needs, and share progress with therapists.',
-    details: ['Daily and weekly activity summaries', 'Most-used card analytics', 'Export progress reports for therapy sessions'],
-    color: 'indigo',
-  },
+
 ]
 
 const colorMap: Record<string, { bg: string; text: string; badge: string }> = {

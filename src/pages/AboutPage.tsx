@@ -3,9 +3,9 @@ import AnimatedSection from '../components/ui/AnimatedSection'
 import { CheckCircle } from 'lucide-react'
 
 const roadmapItems = [
-  { phase: 'Phase 1 — Complete', items: ['Visual communication board', 'Text-to-speech (English & Urdu)', 'Parent push notifications', 'Multi-profile management', 'Communication history'], done: true },
+  { phase: 'Phase 1 — Complete', items: ['Visual communication board', 'Text-to-speech (English & Urdu)', 'Parent push notifications', 'Multi-profile management', 'Communication history', 'apk download for android'], done: true },
   { phase: 'Phase 2 — In Progress', items: ['Native iOS and Android apps', 'Offline mode', 'Improved card analytics', 'More card categories', 'Therapist collaboration tools'], done: false },
-  { phase: 'Phase 3 — Planned', items: ['Additional languages (Arabic, Hindi)', 'AI-powered card suggestions', 'Video card support', 'Integration with school systems', 'Community card sharing'], done: false },
+  { phase: 'Phase 3 — Planned', items: ['Additional languages (Arabic, Hindi)', 'AI-powered card suggestions', 'Integration with school systems', 'Community card sharing'], done: false },
 ]
 
 export default function AboutPage() {

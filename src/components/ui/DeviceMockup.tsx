@@ -44,7 +44,7 @@ interface BrowserMockupProps {
   url?: string
 }
 
-export function BrowserMockup({ children, className = '', url = 'voicebridge-web.vercel.app' }: BrowserMockupProps) {
+export function BrowserMockup({ children, className = '', url = 'voicebridge.website' }: BrowserMockupProps) {
   return (
     <div className={`rounded-xl overflow-hidden shadow-2xl shadow-violet-500/20 bg-white border border-slate-200 ${className}`}>
       {/* Browser chrome */}

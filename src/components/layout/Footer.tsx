@@ -5,7 +5,6 @@ import AppCTAButtons from '../ui/AppCTAButtons'
 const footerLinks = {
   Product: [
     { label: 'How it Works', to: '/how-it-works' },
-    { label: 'Screenshots', to: '/#screenshots' },
   ],
   Company: [
     { label: 'Contact', to: '/contact' },

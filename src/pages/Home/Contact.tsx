@@ -19,7 +19,7 @@ type FormData = z.infer<typeof schema>
 
 const contactInfo = [
   { icon: Mail, title: 'Email Us', value: 'info@mstechlabs.com', desc: 'We reply within 24 hours' },
-  { icon: Clock, title: 'Response Time', value: '< 24 hours', desc: 'Mon–Fri, 9am–6pm PKT' },
+  { icon: Clock, title: 'Response Time', value: '< 24 hours', desc: 'Mon–Fri, 9am–6pm' },
   { icon: Users, title: 'Support For', value: 'Families & Clinics', desc: 'Dedicated support for therapy centers' },
 ]
 
@@ -53,10 +53,9 @@ export default function Contact() {
   }
 
   const inputClass = (hasError: boolean) =>
-    `w-full px-4 py-3 rounded-xl border text-sm transition-colors outline-none focus:ring-2 focus:ring-violet-500/30 ${
-      hasError
-        ? 'border-red-300 bg-red-50 focus:border-red-400'
-        : 'border-slate-200 bg-white focus:border-violet-400'
+    `w-full px-4 py-3 rounded-xl border text-sm transition-colors outline-none focus:ring-2 focus:ring-violet-500/30 ${hasError
+      ? 'border-red-300 bg-red-50 focus:border-red-400'
+      : 'border-slate-200 bg-white focus:border-violet-400'
     }`
 
   return (

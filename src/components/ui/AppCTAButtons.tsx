@@ -1,6 +1,6 @@
 import { ArrowRight, Download, Apple, Smartphone } from 'lucide-react'
 
-const WEB_APP_URL = 'https://voicebridge-web.vercel.app'
+const WEB_APP_URL = 'https://voicebridge.website'
 const ANDROID_APK_URL = '/downloads/voicebridge.apk'
 
 interface AppCTAButtonsProps {

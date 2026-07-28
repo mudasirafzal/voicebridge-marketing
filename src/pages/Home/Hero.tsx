@@ -56,7 +56,7 @@ export default function Hero() {
               animate="visible"
               className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6"
             >
-              Giving Every Person{' '}
+              Giving Every Child{' '}
               <span className="bg-gradient-to-r from-violet-400 via-pink-400 to-amber-300 bg-clip-text text-transparent">
                 a Voice
               </span>
