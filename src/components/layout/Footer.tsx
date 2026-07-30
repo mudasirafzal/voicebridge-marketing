@@ -1,19 +1,22 @@
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { MessageCircle } from 'lucide-react'
 import AppCTAButtons from '../ui/AppCTAButtons'
 
-const footerLinks = {
-  Product: [
-    { label: 'How it Works', to: '/how-it-works' },
-  ],
-  Company: [
-    { label: 'Contact', to: '/contact' },
-    { label: 'Privacy Policy', to: '/privacy' },
-    { label: 'Terms of Service', to: '/terms' },
-  ],
-}
-
 export default function Footer() {
+  const { t } = useTranslation()
+
+  const footerLinks = {
+    [t('footer.product')]: [
+      { label: t('footer.howItWorks'), to: '/how-it-works' },
+    ],
+    [t('footer.company')]: [
+      { label: t('footer.contact'), to: '/contact' },
+      { label: t('footer.privacyPolicy'), to: '/privacy' },
+      { label: t('footer.termsOfService'), to: '/terms' },
+    ],
+  }
+
   return (
     <footer className="bg-slate-900 text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -29,7 +32,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs mb-6">
-              Giving every voice a chance to be heard. VoiceBridge helps non-verbal people of determination express their needs through visual cards — keeping parents and caregivers instantly informed.
+              {t('footer.tagline')}
             </p>
           </div>
 
@@ -58,7 +61,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-slate-500">
-            © 2026 VoiceBridge. Built with ❤️ for autism families.
+            {t('footer.copyright')}
           </p>
           <AppCTAButtons theme="dark" size="compact" showComingSoon={false} />
         </div>

@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "features": "المميزات",
+    "howItWorks": "كيف يعمل",
+    "docs": "الدليل",
+    "about": "من نحن",
+    "contact": "تواصل معنا"
+  },
+  "cta": {
+    "tryOnWeb": "جرّبه على الويب",
+    "downloadForAndroid": "تحميل لأندرويد",
+    "androidApk": "APK لأندرويد",
+    "comingSoon": "قريبًا على App Store و Google Play",
+    "contactUs": "تواصل معنا",
+    "talkToUs": "تحدث معنا",
+    "readTheDocs": "اقرأ الدليل",
+    "watchHowItWorks": "شاهد كيف يعمل"
+  },
+  "footer": {
+    "tagline": "نمنح كل صوت فرصة ليُسمع. يساعد VoiceBridge أصحاب الهمم غير الناطقين على التعبير عن احتياجاتهم من خلال بطاقات مرئية — مع إبقاء الأهل ومقدمي الرعاية على اطلاع فوري.",
+    "product": "المنتج",
+    "company": "الشركة",
+    "howItWorks": "كيف يعمل",
+    "screenshots": "لقطات الشاشة",
+    "contact": "تواصل معنا",
+    "privacyPolicy": "سياسة الخصوصية",
+    "termsOfService": "شروط الخدمة",
+    "copyright": "© 2026 VoiceBridge. صُنع بـ ❤️ من أجل أسر التوحد."
+  }
+}

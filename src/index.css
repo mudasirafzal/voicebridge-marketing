@@ -12,6 +12,12 @@
     @apply text-slate-900 antialiased;
   }
 
+  /* Inter doesn't cover Arabic glyphs — switch to an Arabic-supporting
+     typeface whenever the page is in RTL mode. */
+  html[dir='rtl'] body {
+    font-family: 'Noto Kufi Arabic', 'Inter', system-ui, sans-serif;
+  }
+
   * {
     box-sizing: border-box;
   }

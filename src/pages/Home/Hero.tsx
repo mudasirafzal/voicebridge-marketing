@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { Play, Shield, Smartphone, Globe } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PhoneMockup } from '../../components/ui/DeviceMockup'
@@ -14,13 +15,15 @@ const fadeUp = {
   }),
 }
 
-const trustBadges = [
-  { icon: Shield, label: 'Secure & Private' },
-  { icon: Smartphone, label: 'Mobile + Web' },
-  { icon: Globe, label: 'English, Urdu & Arabic' },
-]
-
 export default function Hero() {
+  const { t } = useTranslation()
+
+  const trustBadges = [
+    { icon: Shield, label: t('home.hero.badgeSecure') },
+    { icon: Smartphone, label: t('home.hero.badgeMobileWeb') },
+    { icon: Globe, label: t('home.hero.badgeLanguages') },
+  ]
+
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Animated gradient background */}
@@ -45,7 +48,7 @@ export default function Hero() {
             <motion.div custom={0} variants={fadeUp} initial="hidden" animate="visible">
               <span className="inline-flex items-center gap-2 px-3 py-1.5 bg-violet-500/20 border border-violet-500/30 rounded-full text-violet-300 text-xs font-medium mb-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse" />
-                Now available in English, Urdu & Arabic
+                {t('home.hero.availableIn')}
               </span>
             </motion.div>
 
@@ -56,9 +59,9 @@ export default function Hero() {
               animate="visible"
               className="text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-tight mb-6"
             >
-              Giving Every Child{' '}
+              {t('home.hero.titleLine1')}{' '}
               <span className="bg-gradient-to-r from-violet-400 via-pink-400 to-amber-300 bg-clip-text text-transparent">
-                a Voice
+                {t('home.hero.titleLine2')}
               </span>
             </motion.h1>
 
@@ -69,7 +72,7 @@ export default function Hero() {
               animate="visible"
               className="text-lg text-slate-300 leading-relaxed mb-8 max-w-lg"
             >
-              VoiceBridge helps non-verbal people of determination express their needs through visual cards — keeping parents and caregivers instantly informed.
+              {t('home.hero.description')}
             </motion.p>
 
             {/* CTAs */}
@@ -88,7 +91,7 @@ export default function Hero() {
                 <div className="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center">
                   <Play className="w-3 h-3 text-white fill-white ml-0.5" />
                 </div>
-                Watch How It Works
+                {t('cta.watchHowItWorks')}
               </Link>
             </motion.div>
 
@@ -139,8 +142,8 @@ export default function Hero() {
                   🔔
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-slate-800">Musa tapped a card</p>
-                  <p className="text-xs text-violet-600 font-medium">"I need water" 💧</p>
+                  <p className="text-xs font-bold text-slate-800">{t('home.hero.notificationTitle')}</p>
+                  <p className="text-xs text-violet-600 font-medium">{t('home.hero.notificationPhrase')}</p>
                 </div>
               </motion.div>
 
@@ -155,8 +158,8 @@ export default function Hero() {
                   ✓
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-slate-800">Request acknowledged</p>
-                  <p className="text-xs text-slate-500">Parent notified instantly</p>
+                  <p className="text-xs font-bold text-slate-800">{t('home.hero.ackTitle')}</p>
+                  <p className="text-xs text-slate-500">{t('home.hero.ackSubtitle')}</p>
                 </div>
               </motion.div>
             </motion.div>

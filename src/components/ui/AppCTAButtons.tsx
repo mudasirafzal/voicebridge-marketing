@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import { ArrowRight, Download, Apple, Smartphone } from 'lucide-react'
 
 const WEB_APP_URL = 'https://voicebridge.website'
@@ -29,6 +30,7 @@ export default function AppCTAButtons({
   showComingSoon = true,
   className = '',
 }: AppCTAButtonsProps) {
+  const { t } = useTranslation()
   const isCompact = size === 'compact'
 
   const padding = isCompact ? 'px-4 py-2' : 'px-6 py-3.5'
@@ -61,7 +63,7 @@ export default function AppCTAButtons({
           rel="noopener noreferrer"
           className={`inline-flex items-center justify-center gap-1.5 ${padding} font-semibold rounded-xl shadow-lg transition-all ${textSize} hover:scale-105 ${primaryClasses}`}
         >
-          Try on Web
+          {t('cta.tryOnWeb')}
           <ArrowRight className={iconSize} />
         </a>
 
@@ -71,7 +73,7 @@ export default function AppCTAButtons({
           className={`inline-flex items-center justify-center gap-1.5 ${padding} font-semibold rounded-xl transition-all ${textSize} border ${secondaryClasses}`}
         >
           <Download className={iconSize} />
-          {isCompact ? 'Android APK' : 'Download for Android'}
+          {isCompact ? t('cta.androidApk') : t('cta.downloadForAndroid')}
         </a>
       </div>
 
@@ -79,7 +81,7 @@ export default function AppCTAButtons({
         <p className={`mt-3 flex items-center gap-2 text-xs ${comingSoonClasses}`}>
           <Apple className="w-3.5 h-3.5" />
           <Smartphone className="w-3.5 h-3.5 -ml-1" />
-          Coming soon on the App Store and Google Play
+          {t('cta.comingSoon')}
         </p>
       )}
     </div>

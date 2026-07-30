@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "badgeSecure": "Secure & Private",
+    "badgeMobileWeb": "Mobile + Web",
+    "badgeLanguages": "English, Urdu & Arabic",
+    "availableIn": "Now available in English, Urdu & Arabic",
+    "titleLine1": "Giving Every Child",
+    "titleLine2": "a Voice",
+    "description": "VoiceBridge helps non-verbal people of determination express their needs through visual cards — keeping parents and caregivers instantly informed.",
+    "notificationTitle": "Musa tapped a card",
+    "notificationPhrase": "\"I need water\" 💧",
+    "ackTitle": "Request acknowledged",
+    "ackSubtitle": "Parent notified instantly"
+  }
+}

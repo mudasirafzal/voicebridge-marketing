@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How it Works",
+    "docs": "Docs",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "cta": {
+    "tryOnWeb": "Try on Web",
+    "downloadForAndroid": "Download for Android",
+    "androidApk": "Android APK",
+    "comingSoon": "Coming soon on the App Store and Google Play",
+    "contactUs": "Contact Us",
+    "talkToUs": "Talk to Us",
+    "readTheDocs": "Read the Docs",
+    "watchHowItWorks": "Watch How It Works"
+  },
+  "footer": {
+    "tagline": "Giving every voice a chance to be heard. VoiceBridge helps non-verbal people of determination express their needs through visual cards — keeping parents and caregivers instantly informed.",
+    "product": "Product",
+    "company": "Company",
+    "howItWorks": "How it Works",
+    "screenshots": "Screenshots",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "© 2026 VoiceBridge. Built with ❤️ for autism families."
+  }
+}
