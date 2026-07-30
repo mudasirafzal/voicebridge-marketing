@@ -13,7 +13,7 @@ const featureCategories = [
     benefits: [
       'Pre-built library of communication cards',
       'Custom card creation with your own images and phrases',
-      'English and Urdu labels on every card',
+      'English, Urdu, and Arabic labels on every card',
       'Large, colorful visuals optimized for quick recognition',
       'Categorized cards: needs, emotions, activities, and more',
       'Text-to-speech reads the phrase aloud on every tap',
@@ -66,13 +66,13 @@ const featureCategories = [
   },
   {
     icon: '🌍',
-    title: 'Bilingual English & Urdu',
+    title: 'Trilingual: English, Urdu & Arabic',
     tagline: 'Communication without borders',
-    description: 'VoiceBridge offers complete bilingual support for English and Urdu-speaking families — card labels, text-to-speech audio, and the full app interface.',
+    description: 'VoiceBridge offers complete trilingual support for English, Urdu, and Arabic-speaking families — card labels, text-to-speech audio, and the full app interface.',
     benefits: [
-      'All card labels available in English and Urdu',
-      'Text-to-speech in both languages',
-      'Automatic high-quality Urdu TTS if no native voice installed',
+      'All card labels available in English, Urdu, and Arabic',
+      'Text-to-speech in all three languages',
+      'Automatic high-quality native-accent TTS for Urdu and Arabic if no native voice installed',
       'Board language switchable per profile instantly',
       'More languages on the roadmap',
     ],

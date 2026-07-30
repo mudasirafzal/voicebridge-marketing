@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <SEO
         title="VoiceBridge - AAC Communication App for People of Determination"
-        description="VoiceBridge helps non-verbal people of determination express their needs through visual communication cards. Real-time parent alerts. Bilingual English & Urdu support."
+        description="VoiceBridge helps non-verbal people of determination express their needs through visual communication cards. Real-time parent alerts. Supports English, Urdu & Arabic."
       />
       <Hero />
       <Overview />

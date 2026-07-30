@@ -3,9 +3,9 @@ import AnimatedSection from '../components/ui/AnimatedSection'
 import { CheckCircle } from 'lucide-react'
 
 const roadmapItems = [
-  { phase: 'Phase 1 — Complete', items: ['Visual communication board', 'Text-to-speech (English & Urdu)', 'Parent push notifications', 'Multi-profile management', 'Communication history', 'apk download for android'], done: true },
+  { phase: 'Phase 1 — Complete', items: ['Visual communication board', 'Text-to-speech (English, Urdu & Arabic)', 'Parent push notifications', 'Multi-profile management', 'Communication history', 'apk download for android'], done: true },
   { phase: 'Phase 2 — In Progress', items: ['Native iOS and Android apps', 'Offline mode', 'Improved card analytics', 'More card categories', 'Therapist collaboration tools'], done: false },
-  { phase: 'Phase 3 — Planned', items: ['Additional languages (Arabic, Hindi)', 'AI-powered card suggestions', 'Integration with school systems', 'Community card sharing'], done: false },
+  { phase: 'Phase 3 — Planned', items: ['Additional languages (Hindi)', 'AI-powered card suggestions', 'Integration with school systems', 'Community card sharing'], done: false },
 ]
 
 export default function AboutPage() {
@@ -44,7 +44,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  In South Asia and across the world, families of people of determination face a critical gap: the AAC tools that exist are designed for Western markets, prohibitively expensive, and almost never available in Urdu.
+                  In South Asia, the Middle East, and across the world, families of people of determination face a critical gap: the AAC tools that exist are designed for Western markets, prohibitively expensive, and almost never available in Urdu or Arabic.
                 </p>
                 <p>
                   VoiceBridge was built to change that. We started with one question: what would a communication app look like if it was designed specifically for families of people of determination across South Asia and beyond?

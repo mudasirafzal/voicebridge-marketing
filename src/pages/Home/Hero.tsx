@@ -17,7 +17,7 @@ const fadeUp = {
 const trustBadges = [
   { icon: Shield, label: 'Secure & Private' },
   { icon: Smartphone, label: 'Mobile + Web' },
-  { icon: Globe, label: 'English & Urdu' },
+  { icon: Globe, label: 'English, Urdu & Arabic' },
 ]
 
 export default function Hero() {
@@ -45,7 +45,7 @@ export default function Hero() {
             <motion.div custom={0} variants={fadeUp} initial="hidden" animate="visible">
               <span className="inline-flex items-center gap-2 px-3 py-1.5 bg-violet-500/20 border border-violet-500/30 rounded-full text-violet-300 text-xs font-medium mb-6">
                 <span className="w-1.5 h-1.5 rounded-full bg-violet-400 animate-pulse" />
-                Now available in English & Urdu
+                Now available in English, Urdu & Arabic
               </span>
             </motion.div>
 

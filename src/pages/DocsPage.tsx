@@ -21,7 +21,7 @@ Click "+ Add" from your dashboard. You can provide:
 - **Name** (required)
 - **Date of birth** — used to display age on the profile
 - **Profile photo** — shown on the board header and in alerts
-- **Preferred language** — English 🇬🇧 or Urdu 🇵🇰
+- **Preferred language** — English 🇬🇧, Urdu 🇵🇰, or Arabic 🇸🇦
 - **Address** and **Notes** — useful for therapy centers storing client details
 
 **Step 3: Configure the Board**
@@ -38,7 +38,7 @@ The board has no back button, so the person cannot accidentally leave it.
 Allow push notifications on your caregiver device so you receive real-time alerts whenever a card is tapped.
 
 **Step 6: Configure Voice & Speaking Style**
-In Settings → Configurations, choose an English voice accent and a speaking style preset (Natural, Child, Clear, or Expressive). For Urdu, high-quality Pakistani TTS is used automatically if no native voice is installed.`,
+In Settings → Configurations, choose an English voice accent and a speaking style preset (Natural, Child, Clear, or Expressive). For Urdu and Arabic, high-quality native-accent TTS is used automatically if no native voice is installed.`,
     },
   },
   {
@@ -64,7 +64,7 @@ From the Profiles page, click "View Profile" on any card, then click "Edit Profi
 **Board Settings (per profile)**
 Each profile page includes a live Board Settings panel where you can adjust:
 - **Push notifications** toggle — enable or disable alerts for this profile
-- **Board language** — switch between English and Urdu instantly
+- **Board language** — switch between English, Urdu, and Arabic instantly
 - **Cards on board** — choose 2, 4, 6, 9, or 12 cards (fewer = larger cards)
 - **Alert interval** — how often the board repeats the phrase in seconds (minimum 5s)
 
@@ -95,7 +95,7 @@ On a tablet or spare phone browser:
 4. The board opens immediately — the device is now paired
 
 **Mobile App Board (Recommended)**
-The VoiceBridge mobile app for iOS and Android is the recommended way to use the board on a dedicated device. It supports Urdu TTS, background alerts, and locks to the board so the person cannot accidentally navigate away:
+The VoiceBridge mobile app for iOS and Android is the recommended way to use the board on a dedicated device. It supports Urdu and Arabic TTS, background alerts, and locks to the board so the person cannot accidentally navigate away:
 1. Download and open the VoiceBridge app
 2. Tap "Enter Pairing Code" on the Pair screen
 3. Enter the 6-digit code generated from the profile page on the web dashboard
@@ -158,7 +158,7 @@ From the Configurations page (Settings menu), you can configure:
 - **Alert sounds** — enable in-browser chime and spoken alerts
 - **English Voice & Accent** — choose from voices available on your device
 - **Speaking Style** — Natural, Child, Clear, or Expressive (adjusts pitch and rate)
-- **Urdu Voice** — automatically uses high-quality Pakistani TTS if no native Urdu voice is installed
+- **Urdu & Arabic Voice** — automatically uses high-quality native-accent TTS if no native voice is installed
 - **Organization logo** — therapy centers can upload their clinic logo`,
     },
   },
@@ -185,16 +185,16 @@ Choose a speaking style that matches the individual's needs:
 
 The selected style applies to English speech on both the caregiver alert and the board.
 
-**Urdu Voice**
-If your device has a native Urdu voice installed, it will appear in the Urdu voice picker. If not, VoiceBridge automatically uses Google TTS for authentic Pakistani Urdu pronunciation — no setup needed.
+**Urdu & Arabic Voice**
+If your device has a native Urdu or Arabic voice installed, it will appear in the voice picker. If not, VoiceBridge automatically uses Google TTS for authentic native pronunciation — no setup needed.
 
-A green "✓ Google TTS Active (Pakistani Urdu)" badge confirms the automatic fallback is in use. You can expand the section to see instructions for installing a native Urdu voice on Android, iOS, or Windows if preferred.
+A green "✓ Google TTS Active" badge confirms the automatic fallback is in use. You can expand the section to see instructions for installing a native voice on Android, iOS, or Windows if preferred.
 
 **Fixing "Wrong Voice" on First Alert**
 Browsers load available voices asynchronously. VoiceBridge waits for voices to fully load before speaking the first alert, so the selected accent is used consistently from the very first notification.
 
 **Mobile App Voice**
-On the mobile app, voice selection uses the device's system TTS. For Urdu, the app fetches audio from the VoiceBridge server and plays it through the device speaker — giving consistent Pakistani Urdu pronunciation regardless of installed voices.`,
+On the mobile app, voice selection uses the device's system TTS. For Urdu and Arabic, the app fetches audio from the VoiceBridge server and plays it through the device speaker — giving consistent native pronunciation regardless of installed voices.`,
     },
   },
   {
@@ -217,7 +217,7 @@ VoiceBridge includes pre-built cards organized into categories:
 To create a custom card:
 1. Open the child's board editor → Add Card
 2. Upload a photo from your gallery or take one with the camera
-3. Enter the English label and/or Urdu label
+3. Enter the English label, plus a translated label in Urdu and/or Arabic
 4. Enter the spoken phrase (used for text-to-speech on the board)
 5. Save — the card appears immediately on the board
 
@@ -228,7 +228,7 @@ The number of cards on the board is set in the child's profile under Board Setti
 - **12 cards**: Compact grid for individuals with a larger active vocabulary
 
 **Board Language**
-The board language is set per child in their profile. Switching between English and Urdu changes both the card labels and the text-to-speech voice. Changes apply immediately to all paired board devices.`,
+The board language is set per child in their profile. Switching between English, Urdu, and Arabic changes both the card labels and the text-to-speech voice. Changes apply immediately to all paired board devices.`,
     },
   },
   {
@@ -250,7 +250,7 @@ Each client profile stores the full set of personal details — name, date of bi
 
 **Board Settings per Client**
 From each client's profile page, therapists can instantly adjust:
-- Board language (English or Urdu)
+- Board language (English, Urdu, or Arabic)
 - Number of cards displayed
 - Alert repeat interval
 - Push notification preferences
@@ -298,7 +298,7 @@ Yes. When any caregiver acknowledges an alert, the board stops speaking on all p
 No. The board has no back button and blocks the device's back gesture, so the child cannot navigate away from the board accidentally.
 
 **What languages are supported?**
-English and Urdu are fully supported, including text-to-speech in both languages. More languages are on the roadmap.
+English, Urdu, and Arabic are fully supported, including text-to-speech in all three languages. More languages are on the roadmap.
 
 **How is data stored?**
 All data is stored securely on encrypted servers. Only you and people you explicitly invite can access your data. We never share data with third parties.

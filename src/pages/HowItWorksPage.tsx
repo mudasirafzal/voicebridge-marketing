@@ -17,7 +17,7 @@ const detailedSteps = [
     icon: '👧',
     title: 'Set Up Your Child\'s Profile',
     description: 'Add your child\'s name, photo, and preferred language. This personalizes the experience — the app will use your child\'s name in spoken phrases.',
-    details: ['Enter child name (used in text-to-speech)', 'Choose English, Urdu, or both', 'Set accessibility preferences'],
+    details: ['Enter child name (used in text-to-speech)', 'Choose English, Urdu, or Arabic', 'Set accessibility preferences'],
     color: 'pink',
   },
   {

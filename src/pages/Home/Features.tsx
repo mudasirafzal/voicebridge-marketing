@@ -4,7 +4,7 @@ const features = [
   {
     icon: '🗣️',
     title: 'Visual Communication Cards',
-    description: 'Pre-built card libraries in English and Urdu, plus custom card creation. Each card has an image, label, and audio — designed for quick, intuitive tapping.',
+    description: 'Pre-built card libraries in English, Urdu, and Arabic, plus custom card creation. Each card has an image, label, and audio — designed for quick, intuitive tapping.',
     color: 'from-violet-500 to-violet-600',
     bg: 'bg-violet-50',
     border: 'border-violet-100',
@@ -43,8 +43,8 @@ const features = [
   },
   {
     icon: '🌍',
-    title: 'Bilingual English & Urdu',
-    description: 'Full English and Urdu support — card labels, text-to-speech, and app interface. Urdu uses authentic Pakistani pronunciation via high-quality TTS.',
+    title: 'Trilingual: English, Urdu & Arabic',
+    description: 'Full English, Urdu, and Arabic support — card labels, text-to-speech, and app interface. Urdu and Arabic use authentic native-accent pronunciation via high-quality TTS.',
     color: 'from-indigo-500 to-indigo-600',
     bg: 'bg-indigo-50',
     border: 'border-indigo-100',

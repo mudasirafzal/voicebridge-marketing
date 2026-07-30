@@ -18,7 +18,7 @@ const faqs = [
   },
   {
     q: 'What languages are supported?',
-    a: 'VoiceBridge fully supports English and Urdu — including card labels, text-to-speech in both languages, and the full app interface. Urdu speech uses authentic Pakistani pronunciation. More languages are planned based on community demand.',
+    a: 'VoiceBridge fully supports English, Urdu, and Arabic — including card labels, text-to-speech in all three languages, and the full app interface. Urdu and Arabic speech uses authentic native pronunciation. More languages are planned based on community demand.',
   },
   {
     q: 'How does the alert and acknowledge system work?',
@@ -26,11 +26,11 @@ const faqs = [
   },
   {
     q: 'Can I choose the voice and speaking style?',
-    a: 'Yes. From Settings → Configurations, you can choose an English voice accent from those available on your device, and pick a speaking style preset: Natural, Child, Clear, or Expressive — each with tuned pitch and rate. For Urdu, VoiceBridge automatically uses high-quality Pakistani Urdu TTS if no native voice is installed.',
+    a: 'Yes. From Settings → Configurations, you can choose an English voice accent from those available on your device, and pick a speaking style preset: Natural, Child, Clear, or Expressive — each with tuned pitch and rate. For Urdu and Arabic, VoiceBridge automatically uses high-quality native-accent TTS if no native voice is installed.',
   },
   {
     q: 'Can I add custom communication cards?',
-    a: 'Yes. In addition to the pre-built card library, you can create fully custom cards with personalized images, labels in English and Urdu, and a spoken phrase. Cards appear on the board immediately after saving.',
+    a: 'Yes. In addition to the pre-built card library, you can create fully custom cards with personalized images, labels in English, Urdu, and Arabic, and a spoken phrase. Cards appear on the board immediately after saving.',
   },
   {
     q: 'Can multiple caregivers receive alerts at the same time?',

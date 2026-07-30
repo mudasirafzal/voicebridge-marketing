@@ -73,8 +73,8 @@ export default function Overview() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <AnimatedSection variant="fadeUp" delay={0.3} className="sm:col-span-2">
               <div className="bg-gradient-to-br from-violet-600 to-pink-600 rounded-2xl p-6 text-white">
-                <div className="text-4xl font-black mb-1">2</div>
-                <p className="text-sm font-medium text-violet-200">Languages supported — English & Urdu</p>
+                <div className="text-4xl font-black mb-1">3</div>
+                <p className="text-sm font-medium text-violet-200">Languages supported — English, Urdu & Arabic</p>
                 <p className="text-xs text-violet-300 mt-2">More languages coming soon</p>
               </div>
             </AnimatedSection>
