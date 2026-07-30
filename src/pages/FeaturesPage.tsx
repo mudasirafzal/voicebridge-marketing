@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import SEO from '../components/SEO'
 import AnimatedSection from '../components/ui/AnimatedSection'
 import AppCTAButtons from '../components/ui/AppCTAButtons'
@@ -6,136 +7,56 @@ import { CheckCircle } from 'lucide-react'
 
 const featureCategories = [
   {
+    id: 'communicationBoard',
     icon: '🗣️',
-    title: 'Visual Communication Board',
-    tagline: 'The heart of VoiceBridge',
-    description: 'A fully customizable visual board that gives non-verbal children a powerful, intuitive way to communicate their needs and feelings.',
-    benefits: [
-      'Pre-built library of communication cards',
-      'Custom card creation with your own images and phrases',
-      'English, Urdu, and Arabic labels on every card',
-      'Large, colorful visuals optimized for quick recognition',
-      'Categorized cards: needs, emotions, activities, and more',
-      'Text-to-speech reads the phrase aloud on every tap',
-    ],
     color: 'violet',
     side: 'left',
   },
   {
+    id: 'instantAlerts',
     icon: '🔔',
-    title: 'Real-Time Parent Notifications',
-    tagline: 'Never miss a moment',
-    description: 'The moment your child taps a card, you know. Instant push notifications keep parents and caregivers connected to their child\'s communication — no matter where they are.',
-    benefits: [
-      'Instant push notifications on any device',
-      'Notification includes child\'s name and exact phrase',
-      'One-tap acknowledgment from the notification itself',
-      'Full communication log available in the app',
-      'Multi-caregiver support — notify everyone at once',
-    ],
     color: 'pink',
     side: 'right',
   },
   {
+    id: 'multiProfile',
     icon: '👨‍👩‍👧',
-    title: 'Multi-Profile Management',
-    tagline: 'One account for the whole family',
-    description: 'Manage multiple children from a single parent account. Each child gets their own personalized board, settings, and communication history.',
-    benefits: [
-      'Unlimited children per parent account',
-      'Individual boards tailored to each child\'s needs',
-      'Separate communication logs per child',
-      'Quick child-switching within the dashboard',
-      'Share access with therapists and educators',
-    ],
     color: 'amber',
     side: 'left',
   },
   {
+    id: 'therapyDashboard',
     icon: '🏥',
-    title: 'Therapy Center Dashboard',
-    tagline: 'Purpose-built for professionals',
-    description: 'Therapists and therapy centers get a dedicated professional dashboard to manage multiple client families, track session outcomes, and collaborate with parents.',
-    benefits: [
-      'Manage unlimited client profiles from one login',
-      'View all client communication boards',
-      'Bulk account setup for new families',
-    ],
     color: 'emerald',
     side: 'right',
   },
   {
+    id: 'trilingual',
     icon: '🌍',
-    title: 'Trilingual: English, Urdu & Arabic',
-    tagline: 'Communication without borders',
-    description: 'VoiceBridge offers complete trilingual support for English, Urdu, and Arabic-speaking families — card labels, text-to-speech audio, and the full app interface.',
-    benefits: [
-      'All card labels available in English, Urdu, and Arabic',
-      'Text-to-speech in all three languages',
-      'Automatic high-quality native-accent TTS for Urdu and Arabic if no native voice installed',
-      'Board language switchable per profile instantly',
-      'More languages on the roadmap',
-    ],
     color: 'indigo',
     side: 'right',
   },
   {
+    id: 'voiceStyles',
     icon: '🎙️',
-    title: 'Voice & Speaking Styles',
-    tagline: 'A voice that feels right',
-    description: 'Choose from multiple English voice accents and four speaking style presets to find the voice that works best for each individual.',
-    benefits: [
-      'Pick from any English voice on your device or browser',
-      'Natural — balanced, conversational tone',
-      'Child — gentle, slightly higher pitch and slower rate',
-      'Clear — deliberate, slower speech for new learners',
-      'Expressive — energetic for engaged communicators',
-      'First-alert voice fix — no wrong accent on the very first notification',
-    ],
     color: 'violet',
     side: 'left',
   },
   {
+    id: 'privacySecurity',
     icon: '🔒',
-    title: 'Privacy & Security',
-    tagline: 'Your family\'s data stays yours',
-    description: 'We take the privacy of children seriously. VoiceBridge is COPPA compliant, uses end-to-end encryption, and never sells or shares user data.',
-    benefits: [
-      'COPPA compliant — designed for children',
-      'End-to-end encryption for all data',
-      'No advertising or data monetization',
-      'Data export and deletion on request',
-      'Secure password and account management',
-      'Regular third-party security audits',
-    ],
     color: 'slate',
     side: 'left',
   },
   {
+    id: 'crossPlatform',
     icon: '📱',
-    title: 'Cross-Platform Access',
-    tagline: 'Works on any device',
-    description: 'VoiceBridge runs in any modern web browser — on tablets, phones, and desktop computers — without requiring an app download. Use it anywhere.',
-    benefits: [
-      'Works on iOS, Android, Windows, macOS',
-      'Optimized for tablet use by children',
-      'Syncs across all your devices automatically',
-      'Native iOS and Android apps coming soon',
-    ],
     color: 'cyan',
     side: 'right',
   },
   {
+    id: 'personalization',
     icon: '🎯',
-    title: 'Personalization & Customization',
-    tagline: 'Built around your child',
-    description: 'No two children are alike. VoiceBridge lets you fully customize the communication board, card categories, colors, and layout to match your child\'s specific needs.',
-    benefits: [
-      'Drag-and-drop card arrangement',
-      'Adjustable grid size for accessibility',
-      'Custom card colors and background themes',
-      'Photo library or camera for card images',
-    ],
     color: 'rose',
     side: 'left',
   },
@@ -154,11 +75,13 @@ const colorMap: Record<string, string> = {
 }
 
 export default function FeaturesPage() {
+  const { t } = useTranslation()
+
   return (
     <>
       <SEO
-        title="Features"
-        description="Explore all VoiceBridge features: visual communication cards, real-time parent alerts, therapy center dashboards, bilingual support, and more."
+        title={t('featuresPage.seo.title')}
+        description={t('featuresPage.seo.description')}
       />
 
       {/* Hero */}
@@ -166,16 +89,16 @@ export default function FeaturesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-12">
           <AnimatedSection variant="fadeUp">
             <span className="inline-block px-3 py-1.5 bg-violet-500/20 border border-violet-500/30 rounded-full text-violet-300 text-xs font-medium mb-6">
-              Full Feature Set
+              {t('featuresPage.hero.badge')}
             </span>
             <h1 className="text-4xl sm:text-5xl font-black mb-6">
-              Built for Real{' '}
+              {t('featuresPage.hero.titleLine1')}{' '}
               <span className="bg-gradient-to-r from-violet-400 via-pink-400 to-amber-300 bg-clip-text text-transparent">
-                Communication Needs
+                {t('featuresPage.hero.titleLine2')}
               </span>
             </h1>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              Every feature in VoiceBridge was designed around a real challenge faced by families of non-verbal children. Nothing is there for show — everything serves a purpose.
+              {t('featuresPage.hero.description')}
             </p>
           </AnimatedSection>
         </div>
@@ -185,20 +108,24 @@ export default function FeaturesPage() {
       <div className="bg-white">
         {featureCategories.map((feature, i) => {
           const isRight = feature.side === 'right'
+          const title = t(`featuresPage.items.${feature.id}.title`)
+          const tagline = t(`featuresPage.items.${feature.id}.tagline`)
+          const description = t(`featuresPage.items.${feature.id}.description`)
+          const benefits = t(`featuresPage.items.${feature.id}.benefits`, { returnObjects: true }) as string[]
           return (
-            <section key={feature.title} className={`py-20 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
+            <section key={feature.id} className={`py-20 ${i % 2 === 0 ? 'bg-white' : 'bg-slate-50'}`}>
               <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${isRight ? 'lg:grid-flow-col-dense' : ''}`}>
                   {/* Text */}
                   <AnimatedSection variant={isRight ? 'slideRight' : 'slideLeft'} className={isRight ? 'lg:col-start-2' : ''}>
                     <div className={`inline-flex items-center gap-2 px-3 py-1.5 ${colorMap[feature.color]} rounded-full text-xs font-semibold mb-4`}>
-                      {feature.tagline}
+                      {tagline}
                     </div>
                     <div className="text-4xl mb-3">{feature.icon}</div>
-                    <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-4">{feature.title}</h2>
-                    <p className="text-slate-600 leading-relaxed mb-6">{feature.description}</p>
+                    <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-4">{title}</h2>
+                    <p className="text-slate-600 leading-relaxed mb-6">{description}</p>
                     <ul className="space-y-2.5">
-                      {feature.benefits.map((benefit) => (
+                      {benefits.map((benefit) => (
                         <li key={benefit} className="flex items-start gap-2.5 text-sm text-slate-700">
                           <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
                           {benefit}
@@ -224,13 +151,13 @@ export default function FeaturesPage() {
       <section className="py-20 bg-gradient-to-r from-violet-600 to-pink-500">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <AnimatedSection variant="fadeUp">
-            <h2 className="text-3xl font-black text-white mb-4">Ready to explore VoiceBridge?</h2>
+            <h2 className="text-3xl font-black text-white mb-4">{t('featuresPage.cta.title')}</h2>
             <div className="flex justify-center">
               <AppCTAButtons theme="light" />
             </div>
             <div className="mt-6 flex justify-center">
               <Link to="/contact" className="inline-flex items-center gap-2 px-6 py-3 border-2 border-white/60 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors">
-                Talk to Us
+                {t('featuresPage.cta.talkToUs')}
               </Link>
             </div>
           </AnimatedSection>

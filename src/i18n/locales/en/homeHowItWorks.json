@@ -1,0 +1,23 @@
+{
+  "eyebrow": "How it Works",
+  "title": "Simple. Instant. Powerful.",
+  "subtitle": "Four steps that transform how your family communicates every single day.",
+  "steps": {
+    "01": {
+      "title": "Child Opens the Board",
+      "description": "The child opens VoiceBridge on any device. Their personalized communication board appears with large, colorful visual cards — each representing a common need or feeling."
+    },
+    "02": {
+      "title": "Card Speaks Aloud",
+      "description": "When the child taps a card, the app reads the phrase aloud using the child's name — \"Musa needs water.\" This reinforces language learning while immediately communicating the need."
+    },
+    "03": {
+      "title": "Parent Gets Notified",
+      "description": "The parent or caregiver receives a real-time push notification on their device. No matter where they are in the house or building, they know immediately what their child needs."
+    },
+    "04": {
+      "title": "Communication Loop Closes",
+      "description": "The parent acknowledges the request in the app, completing the communication loop. The child sees confirmation, building trust and encouraging further communication attempts."
+    }
+  }
+}

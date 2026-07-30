@@ -1,1 +1,125 @@
-{}
+{
+  "seo": {
+    "title": "Features",
+    "description": "Explore all VoiceBridge features: visual communication cards, real-time parent alerts, therapy center dashboards, bilingual support, and more."
+  },
+  "hero": {
+    "badge": "Full Feature Set",
+    "titleLine1": "Built for Real",
+    "titleLine2": "Communication Needs",
+    "description": "Every feature in VoiceBridge was designed around a real challenge faced by families of non-verbal children. Nothing is there for show — everything serves a purpose."
+  },
+  "items": {
+    "communicationBoard": {
+      "title": "Visual Communication Board",
+      "tagline": "The heart of VoiceBridge",
+      "description": "A fully customizable visual board that gives non-verbal children a powerful, intuitive way to communicate their needs and feelings.",
+      "benefits": [
+        "Pre-built library of communication cards",
+        "Custom card creation with your own images and phrases",
+        "English, Urdu, and Arabic labels on every card",
+        "Large, colorful visuals optimized for quick recognition",
+        "Categorized cards: needs, emotions, activities, and more",
+        "Text-to-speech reads the phrase aloud on every tap"
+      ]
+    },
+    "instantAlerts": {
+      "title": "Real-Time Parent Notifications",
+      "tagline": "Never miss a moment",
+      "description": "The moment your child taps a card, you know. Instant push notifications keep parents and caregivers connected to their child's communication — no matter where they are.",
+      "benefits": [
+        "Instant push notifications on any device",
+        "Notification includes child's name and exact phrase",
+        "One-tap acknowledgment from the notification itself",
+        "Full communication log available in the app",
+        "Multi-caregiver support — notify everyone at once"
+      ]
+    },
+    "multiProfile": {
+      "title": "Multi-Profile Management",
+      "tagline": "One account for the whole family",
+      "description": "Manage multiple children from a single parent account. Each child gets their own personalized board, settings, and communication history.",
+      "benefits": [
+        "Unlimited children per parent account",
+        "Individual boards tailored to each child's needs",
+        "Separate communication logs per child",
+        "Quick child-switching within the dashboard",
+        "Share access with therapists and educators"
+      ]
+    },
+    "therapyDashboard": {
+      "title": "Therapy Center Dashboard",
+      "tagline": "Purpose-built for professionals",
+      "description": "Therapists and therapy centers get a dedicated professional dashboard to manage multiple client families, track session outcomes, and collaborate with parents.",
+      "benefits": [
+        "Manage unlimited client profiles from one login",
+        "View all client communication boards",
+        "Bulk account setup for new families"
+      ]
+    },
+    "trilingual": {
+      "title": "Trilingual: English, Urdu & Arabic",
+      "tagline": "Communication without borders",
+      "description": "VoiceBridge offers complete trilingual support for English, Urdu, and Arabic-speaking families — card labels, text-to-speech audio, and the full app interface.",
+      "benefits": [
+        "All card labels available in English, Urdu, and Arabic",
+        "Text-to-speech in all three languages",
+        "Automatic high-quality native-accent TTS for Urdu and Arabic if no native voice installed",
+        "Board language switchable per profile instantly",
+        "More languages on the roadmap"
+      ]
+    },
+    "voiceStyles": {
+      "title": "Voice & Speaking Styles",
+      "tagline": "A voice that feels right",
+      "description": "Choose from multiple English voice accents and four speaking style presets to find the voice that works best for each individual.",
+      "benefits": [
+        "Pick from any English voice on your device or browser",
+        "Natural — balanced, conversational tone",
+        "Child — gentle, slightly higher pitch and slower rate",
+        "Clear — deliberate, slower speech for new learners",
+        "Expressive — energetic for engaged communicators",
+        "First-alert voice fix — no wrong accent on the very first notification"
+      ]
+    },
+    "privacySecurity": {
+      "title": "Privacy & Security",
+      "tagline": "Your family's data stays yours",
+      "description": "We take the privacy of children seriously. VoiceBridge is COPPA compliant, uses end-to-end encryption, and never sells or shares user data.",
+      "benefits": [
+        "COPPA compliant — designed for children",
+        "End-to-end encryption for all data",
+        "No advertising or data monetization",
+        "Data export and deletion on request",
+        "Secure password and account management",
+        "Regular third-party security audits"
+      ]
+    },
+    "crossPlatform": {
+      "title": "Cross-Platform Access",
+      "tagline": "Works on any device",
+      "description": "VoiceBridge runs in any modern web browser — on tablets, phones, and desktop computers — without requiring an app download. Use it anywhere.",
+      "benefits": [
+        "Works on iOS, Android, Windows, macOS",
+        "Optimized for tablet use by children",
+        "Syncs across all your devices automatically",
+        "Native iOS and Android apps coming soon"
+      ]
+    },
+    "personalization": {
+      "title": "Personalization & Customization",
+      "tagline": "Built around your child",
+      "description": "No two children are alike. VoiceBridge lets you fully customize the communication board, card categories, colors, and layout to match your child's specific needs.",
+      "benefits": [
+        "Drag-and-drop card arrangement",
+        "Adjustable grid size for accessibility",
+        "Custom card colors and background themes",
+        "Photo library or camera for card images"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Ready to explore VoiceBridge?",
+    "talkToUs": "Talk to Us"
+  }
+}

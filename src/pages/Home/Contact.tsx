@@ -4,27 +4,35 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import emailjs from '@emailjs/browser'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { Send, CheckCircle, XCircle, Mail, Clock, Users } from 'lucide-react'
 import AnimatedSection from '../../components/ui/AnimatedSection'
 
-const schema = z.object({
-  name: z.string().min(2, 'Name must be at least 2 characters'),
-  email: z.string().email('Please enter a valid email address'),
-  organization: z.string().optional(),
-  subject: z.string().min(5, 'Subject must be at least 5 characters'),
-  message: z.string().min(20, 'Message must be at least 20 characters'),
-})
-
-type FormData = z.infer<typeof schema>
-
-const contactInfo = [
-  { icon: Mail, title: 'Email Us', value: 'info@mstechlabs.com', desc: 'We reply within 24 hours' },
-  { icon: Clock, title: 'Response Time', value: '< 24 hours', desc: 'Mon–Fri, 9am–6pm' },
-  { icon: Users, title: 'Support For', value: 'Families & Clinics', desc: 'Dedicated support for therapy centers' },
-]
+type FormData = {
+  name: string
+  email: string
+  organization?: string
+  subject: string
+  message: string
+}
 
 export default function Contact() {
+  const { t } = useTranslation()
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
+
+  const schema = z.object({
+    name: z.string().min(2, t('homeContact.validation.nameMin')),
+    email: z.string().email(t('homeContact.validation.emailInvalid')),
+    organization: z.string().optional(),
+    subject: z.string().min(5, t('homeContact.validation.subjectMin')),
+    message: z.string().min(20, t('homeContact.validation.messageMin')),
+  })
+
+  const contactInfo = [
+    { icon: Mail, title: t('homeContact.info.email.title'), value: t('homeContact.info.email.value'), desc: t('homeContact.info.email.desc') },
+    { icon: Clock, title: t('homeContact.info.responseTime.title'), value: t('homeContact.info.responseTime.value'), desc: t('homeContact.info.responseTime.desc') },
+    { icon: Users, title: t('homeContact.info.supportFor.title'), value: t('homeContact.info.supportFor.value'), desc: t('homeContact.info.supportFor.desc') },
+  ]
 
   const { register, handleSubmit, reset, formState: { errors } } = useForm<FormData>({
     resolver: zodResolver(schema),
@@ -62,12 +70,12 @@ export default function Contact() {
     <section className="py-24 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection variant="fadeUp" className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">Get in Touch</span>
+          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">{t('homeContact.sectionLabel')}</span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-black text-slate-900">
-            We'd Love to Hear from You
+            {t('homeContact.title')}
           </h2>
           <p className="mt-4 text-lg text-slate-500 max-w-xl mx-auto">
-            Whether you're a parent with questions or a therapy center looking to onboard — we're here to help.
+            {t('homeContact.subtitle')}
           </p>
         </AnimatedSection>
 
@@ -84,45 +92,45 @@ export default function Contact() {
                     className="text-center py-12"
                   >
                     <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
-                    <h3 className="text-xl font-bold text-slate-900 mb-2">Message Sent!</h3>
-                    <p className="text-slate-500 mb-6">We'll get back to you within 24 hours.</p>
+                    <h3 className="text-xl font-bold text-slate-900 mb-2">{t('homeContact.form.successTitle')}</h3>
+                    <p className="text-slate-500 mb-6">{t('homeContact.form.successSubtitle')}</p>
                     <button onClick={() => setStatus('idle')} className="px-6 py-2.5 bg-violet-600 text-white rounded-xl text-sm font-medium hover:bg-violet-700 transition-colors">
-                      Send Another
+                      {t('homeContact.form.sendAnother')}
                     </button>
                   </motion.div>
                 ) : (
                   <motion.form key="form" onSubmit={handleSubmit(onSubmit)} className="space-y-5">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       <div>
-                        <label className="block text-sm font-medium text-slate-700 mb-1.5">Name *</label>
-                        <input {...register('name')} placeholder="Your full name" className={inputClass(!!errors.name)} />
+                        <label className="block text-sm font-medium text-slate-700 mb-1.5">{t('homeContact.form.nameLabel')}</label>
+                        <input {...register('name')} placeholder={t('homeContact.form.namePlaceholder')} className={inputClass(!!errors.name)} />
                         {errors.name && <p className="mt-1 text-xs text-red-500">{errors.name.message}</p>}
                       </div>
                       <div>
-                        <label className="block text-sm font-medium text-slate-700 mb-1.5">Email *</label>
-                        <input {...register('email')} type="email" placeholder="you@example.com" className={inputClass(!!errors.email)} />
+                        <label className="block text-sm font-medium text-slate-700 mb-1.5">{t('homeContact.form.emailLabel')}</label>
+                        <input {...register('email')} type="email" placeholder={t('homeContact.form.emailPlaceholder')} className={inputClass(!!errors.email)} />
                         {errors.email && <p className="mt-1 text-xs text-red-500">{errors.email.message}</p>}
                       </div>
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-slate-700 mb-1.5">Organization <span className="text-slate-400">(optional)</span></label>
-                      <input {...register('organization')} placeholder="Therapy center, school, etc." className={inputClass(false)} />
+                      <label className="block text-sm font-medium text-slate-700 mb-1.5">{t('homeContact.form.organizationLabel')} <span className="text-slate-400">{t('homeContact.form.organizationOptional')}</span></label>
+                      <input {...register('organization')} placeholder={t('homeContact.form.organizationPlaceholder')} className={inputClass(false)} />
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-slate-700 mb-1.5">Subject *</label>
-                      <input {...register('subject')} placeholder="How can we help?" className={inputClass(!!errors.subject)} />
+                      <label className="block text-sm font-medium text-slate-700 mb-1.5">{t('homeContact.form.subjectLabel')}</label>
+                      <input {...register('subject')} placeholder={t('homeContact.form.subjectPlaceholder')} className={inputClass(!!errors.subject)} />
                       {errors.subject && <p className="mt-1 text-xs text-red-500">{errors.subject.message}</p>}
                     </div>
                     <div>
-                      <label className="block text-sm font-medium text-slate-700 mb-1.5">Message *</label>
-                      <textarea {...register('message')} rows={5} placeholder="Tell us more about your situation..." className={inputClass(!!errors.message)} />
+                      <label className="block text-sm font-medium text-slate-700 mb-1.5">{t('homeContact.form.messageLabel')}</label>
+                      <textarea {...register('message')} rows={5} placeholder={t('homeContact.form.messagePlaceholder')} className={inputClass(!!errors.message)} />
                       {errors.message && <p className="mt-1 text-xs text-red-500">{errors.message.message}</p>}
                     </div>
 
                     {status === 'error' && (
                       <div className="flex items-center gap-2 p-3 bg-red-50 border border-red-200 rounded-xl text-sm text-red-600">
                         <XCircle className="w-4 h-4 shrink-0" />
-                        Something went wrong. Please try emailing info@mstechlabs.com directly.
+                        {t('homeContact.form.errorBanner')}
                       </div>
                     )}
 
@@ -134,12 +142,12 @@ export default function Contact() {
                       {status === 'loading' ? (
                         <>
                           <div className="w-4 h-4 border-2 border-white/40 border-t-white rounded-full animate-spin" />
-                          Sending...
+                          {t('homeContact.form.submitting')}
                         </>
                       ) : (
                         <>
                           <Send className="w-4 h-4" />
-                          Send Message
+                          {t('homeContact.form.submitButton')}
                         </>
                       )}
                     </button>
@@ -166,9 +174,9 @@ export default function Contact() {
               ))}
 
               <div className="bg-gradient-to-br from-violet-600 to-pink-600 rounded-2xl p-6 text-white">
-                <h3 className="font-bold mb-2">Are you a therapy center?</h3>
+                <h3 className="font-bold mb-2">{t('homeContact.therapyCenterBanner.title')}</h3>
                 <p className="text-sm text-violet-100 leading-relaxed">
-                  We offer dedicated onboarding support, bulk account setup, and customization for therapy centers. Reach out and we'll set up a call.
+                  {t('homeContact.therapyCenterBanner.description')}
                 </p>
               </div>
             </div>

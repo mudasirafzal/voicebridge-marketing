@@ -80,7 +80,7 @@ export default function Navbar() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="p-2 rounded-lg text-slate-600 hover:text-violet-600 hover:bg-violet-50 transition-colors"
-              aria-label="Toggle menu"
+              aria-label={t('cta.toggleMenu')}
             >
               {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
             </button>

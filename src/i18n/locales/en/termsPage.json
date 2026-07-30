@@ -1,0 +1,180 @@
+{
+  "seo": {
+    "title": "Terms of Service — VoiceBridge",
+    "description": "VoiceBridge Terms of Service. Read about permitted use, user content, subscriptions, and your rights as a VoiceBridge user."
+  },
+  "hero": {
+    "badge": "📋 Terms of Service",
+    "title": "Terms of Service",
+    "effectiveDate": "Effective date: January 1, 2025",
+    "intro": "Please read these terms carefully before using VoiceBridge. They explain your rights and responsibilities as a user of our service."
+  },
+  "summary": {
+    "title": "Key Points",
+    "points": [
+      "Accounts must be created by adults (18+). Children use the board through a parent's or caregiver's account.",
+      "VoiceBridge is a communication support tool — it is not a medical device or clinical service.",
+      "You own your content. We only use it to operate the service.",
+      "You can cancel and export your data at any time."
+    ]
+  },
+  "sections": {
+    "acceptanceOfTerms": {
+      "title": "Acceptance of Terms",
+      "content": [
+        {
+          "text": "By creating a VoiceBridge account or using any part of the VoiceBridge service (the \"Service\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service."
+        },
+        {
+          "text": "These Terms apply to all users of the Service, including parents, caregivers, and therapy professionals. If you are using VoiceBridge on behalf of an organization (such as a therapy center), you represent that you have authority to bind that organization to these Terms."
+        }
+      ]
+    },
+    "descriptionOfService": {
+      "title": "Description of the Service",
+      "content": [
+        {
+          "text": "VoiceBridge is an Augmentative and Alternative Communication (AAC) application that enables non-verbal individuals to communicate through visual cards. The Service includes a mobile board for communication users, a caregiver web and mobile interface for receiving real-time alerts, communication history logging, and profile management tools."
+        },
+        {
+          "text": "VoiceBridge is a communication support tool. It is not a medical device, clinical assessment tool, or substitute for professional speech-language pathology services. Always work with qualified professionals when designing a communication plan."
+        }
+      ]
+    },
+    "eligibilityAccountRegistration": {
+      "title": "Eligibility & Account Registration",
+      "content": [
+        {
+          "subtitle": "Adult Account Holders",
+          "text": "Accounts must be created and managed by individuals who are at least 18 years old. VoiceBridge does not offer accounts directly to minors."
+        },
+        {
+          "subtitle": "Accurate Information",
+          "text": "You agree to provide accurate and current information when creating your account and to keep your account details up to date."
+        },
+        {
+          "subtitle": "Account Security",
+          "text": "You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account. Notify us immediately if you suspect unauthorized access."
+        }
+      ]
+    },
+    "permittedUse": {
+      "title": "Permitted Use",
+      "content": [
+        {
+          "subtitle": "Personal & Professional Use",
+          "text": "VoiceBridge may be used by parents and caregivers for personal family communication support, and by therapy professionals for client management within their practice."
+        },
+        {
+          "subtitle": "Prohibited Activities",
+          "text": "You may not: (a) use the Service for any unlawful purpose; (b) attempt to reverse-engineer, copy, or resell any part of the Service; (c) upload content that is harmful, offensive, or violates the rights of others; (d) use automated tools to access the Service in ways that exceed normal usage; or (e) attempt to gain unauthorized access to other users' accounts or data."
+        }
+      ]
+    },
+    "userContent": {
+      "title": "User Content",
+      "content": [
+        {
+          "subtitle": "Your Content",
+          "text": "You retain ownership of any content you upload to VoiceBridge, including profile photos, custom card images, and phrases. By uploading content, you grant VoiceBridge a limited license to store and display that content to you and the users you authorize."
+        },
+        {
+          "subtitle": "Content Standards",
+          "text": "You are responsible for ensuring that content you upload does not infringe third-party rights and complies with applicable law. We reserve the right to remove content that violates these Terms."
+        }
+      ]
+    },
+    "communicationData": {
+      "title": "Communication Data",
+      "content": [
+        {
+          "text": "Communication events (card taps, phrases, timestamps) are logged to provide the notification and history features. You own this data. We process it solely to operate the Service and as described in our Privacy Policy. We do not use communication content for advertising or sell it to third parties."
+        }
+      ]
+    },
+    "therapyCenterAccounts": {
+      "title": "Therapy Center Accounts",
+      "content": [
+        {
+          "text": "Therapy centers and professionals using VoiceBridge are responsible for obtaining any consents required by applicable law (including health privacy regulations) before linking client profiles to their account. VoiceBridge provides the technical platform; compliance with professional and legal obligations remains the responsibility of the therapy center."
+        }
+      ]
+    },
+    "serviceAvailability": {
+      "title": "Service Availability",
+      "content": [
+        {
+          "text": "We strive to provide a reliable service but cannot guarantee 100% uptime. The Service may be temporarily unavailable due to maintenance, updates, or events outside our control. We are not liable for losses arising from service interruptions."
+        },
+        {
+          "text": "VoiceBridge is an active product under ongoing development. Features may be added, changed, or discontinued. We will provide reasonable notice of significant changes that affect core functionality."
+        }
+      ]
+    },
+    "subscriptionsPayments": {
+      "title": "Subscriptions & Payments",
+      "content": [
+        {
+          "text": "Certain features of VoiceBridge may require a paid subscription. Pricing, billing cycles, and cancellation terms are described at the point of purchase and on the relevant subscription page. Subscriptions auto-renew unless cancelled before the renewal date. Refunds are handled on a case-by-case basis — contact support@voicebridge.app."
+        }
+      ]
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property",
+      "content": [
+        {
+          "text": "VoiceBridge and its pre-built card content, design, code, and trademarks are the property of VoiceBridge and its licensors. Nothing in these Terms transfers ownership of VoiceBridge intellectual property to you. You may not use our name, logo, or branding without prior written permission."
+        }
+      ]
+    },
+    "disclaimers": {
+      "title": "Disclaimers",
+      "content": [
+        {
+          "text": "The Service is provided \"as is\" without warranties of any kind, express or implied. VoiceBridge does not warrant that the Service will meet all of your requirements or that it will be error-free, uninterrupted, or completely secure."
+        },
+        {
+          "text": "VoiceBridge is a communication support tool and is not a substitute for professional medical, therapeutic, or clinical advice. Decisions about an individual's communication plan should always involve qualified professionals."
+        }
+      ]
+    },
+    "limitationOfLiability": {
+      "title": "Limitation of Liability",
+      "content": [
+        {
+          "text": "To the maximum extent permitted by law, VoiceBridge shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of or inability to use the Service. Our total liability for any claim arising under these Terms shall not exceed the amount you paid to VoiceBridge in the 12 months prior to the claim."
+        }
+      ]
+    },
+    "termination": {
+      "title": "Termination",
+      "content": [
+        {
+          "text": "You may delete your account at any time. We reserve the right to suspend or terminate your account if you violate these Terms, with or without notice depending on the severity of the violation. Upon termination, your right to use the Service ceases immediately. You may request an export of your data before termination."
+        }
+      ]
+    },
+    "changesToTerms": {
+      "title": "Changes to These Terms",
+      "content": [
+        {
+          "text": "We may update these Terms from time to time. We will notify you of material changes via email or in-app notice at least 14 days before they take effect. Continued use of the Service after the effective date of revised Terms constitutes acceptance."
+        }
+      ]
+    },
+    "governingLaw": {
+      "title": "Governing Law",
+      "content": [
+        {
+          "text": "These Terms are governed by applicable law. Any disputes arising from these Terms or your use of the Service will be resolved through good-faith negotiation in the first instance, and thereafter through binding arbitration or a court of competent jurisdiction."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Questions about these Terms?",
+    "textBeforeLink": "If anything is unclear, reach out and we'll be happy to explain. See also our",
+    "privacyLink": "Privacy Policy",
+    "cta": "Contact Support →"
+  }
+}

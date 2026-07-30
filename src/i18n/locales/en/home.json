@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "VoiceBridge - AAC Communication App for People of Determination",
+    "description": "VoiceBridge helps non-verbal people of determination express their needs through visual communication cards. Real-time parent alerts. Supports English, Urdu & Arabic."
+  },
   "hero": {
     "badgeSecure": "Secure & Private",
     "badgeMobileWeb": "Mobile + Web",

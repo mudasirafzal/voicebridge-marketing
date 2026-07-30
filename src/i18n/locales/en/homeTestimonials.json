@@ -1,1 +1,21 @@
-{}
+{
+  "eyebrow": "Testimonials",
+  "title": "Trusted by Families & Professionals",
+  "items": {
+    "sarah-m": {
+      "name": "Sarah M.",
+      "role": "Parent of 8-year-old person of determination",
+      "quote": "VoiceBridge transformed how our son communicates. He can finally tell us when he's hungry or needs help — things he couldn't express before. The notification system means we never miss what he's trying to say."
+    },
+    "ahmed-k": {
+      "name": "Dr. Ahmed K.",
+      "role": "Speech-Language Pathologist",
+      "quote": "An invaluable tool for our therapy sessions. The progress tracking has been remarkable — I can see exactly which cards my patients use most, helping me tailor sessions to build on their natural communication patterns."
+    },
+    "fatima-r": {
+      "name": "Fatima R.",
+      "role": "Therapy Center Director",
+      "quote": "We've onboarded 20 families and the feedback has been overwhelmingly positive. The bilingual support is a game-changer for our Urdu-speaking families who previously had limited options."
+    }
+  }
+}

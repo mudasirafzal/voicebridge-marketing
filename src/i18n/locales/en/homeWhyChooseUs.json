@@ -1,0 +1,23 @@
+{
+  "eyebrow": "Why VoiceBridge",
+  "title": "The App That Puts Families First",
+  "quote": "\"Communication is a basic human right. VoiceBridge ensures every child can be heard.\"",
+  "pillars": {
+    "builtForFamilies": {
+      "title": "Built for Families",
+      "description": "Designed with input from parents, caregivers, and special education professionals. Every feature serves a real family need — not a checkbox."
+    },
+    "clinicallyInformed": {
+      "title": "Clinically Informed",
+      "description": "Our card library and communication models are informed by evidence-based AAC research and refined through feedback from practicing speech-language pathologists."
+    },
+    "privacyFirst": {
+      "title": "Privacy First",
+      "description": "Your child's communication data belongs to you. We never sell data, use it for advertising, or share it with third parties — ever. COPPA compliant."
+    },
+    "alwaysImproving": {
+      "title": "Always Improving",
+      "description": "VoiceBridge is actively developed with regular updates based on family feedback. New cards, languages, and features are continuously being added."
+    }
+  }
+}

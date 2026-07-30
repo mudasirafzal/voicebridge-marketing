@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import AnimatedSection from '../../components/ui/AnimatedSection'
 import AppCTAButtons from '../../components/ui/AppCTAButtons'
 import { PhoneMockup, BrowserMockup } from '../../components/ui/DeviceMockup'
@@ -10,29 +11,29 @@ import ParentDashboardScreenshot from '../../components/screenshots/ParentDashbo
 import TherapyCenterScreenshot from '../../components/screenshots/TherapyCenterScreenshot'
 import CardConfigScreenshot from '../../components/screenshots/CardConfigScreenshot'
 
-const tabs = [
-  { id: 'board', label: '🗣️ Communication Board', device: 'phone', desc: 'Child taps a card — it speaks aloud and notifies the parent instantly.' },
-  { id: 'parent-setup', label: '👶 Add Child Profile', device: 'phone', desc: 'Set up a child profile in under a minute. Choose name, language, and a photo.' },
-  { id: 'parent-dashboard', label: '🏠 Parent Dashboard', device: 'browser', desc: 'See all profiles, live alerts, and recent communication events in one place.' },
-  { id: 'card-config', label: '💳 Configure Cards', device: 'phone', desc: 'Toggle, reorder, and customise communication cards with a simple drag-and-drop interface.' },
-  { id: 'therapy', label: '🏥 Therapy Center', device: 'browser', desc: 'Manage families, assign therapists, and monitor progress across the entire center.' },
-  { id: 'alerts', label: '🔔 Alerts', device: 'phone', desc: 'Parents receive instant push notifications and can acknowledge requests in one tap.' },
-]
+const tabIds = ['board', 'parent-setup', 'parent-dashboard', 'card-config', 'therapy', 'alerts'] as const
 
 export default function Screenshots() {
+  const { t } = useTranslation()
   const [active, setActive] = useState('board')
-  const activeTab = tabs.find(t => t.id === active)!
+
+  const tabs = tabIds.map((id) => ({
+    id,
+    label: t(`homeScreenshots.tabs.${id}.label`),
+    desc: t(`homeScreenshots.tabs.${id}.desc`),
+  }))
+  const activeTab = tabs.find(tab => tab.id === active)!
 
   return (
     <section id="screenshots" className="py-24 bg-gradient-to-b from-white to-slate-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection variant="fadeUp" className="text-center mb-12">
-          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">Product Screenshots</span>
+          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">{t('homeScreenshots.eyebrow')}</span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-black text-slate-900">
-            See VoiceBridge in Action
+            {t('homeScreenshots.title')}
           </h2>
           <p className="mt-4 text-lg text-slate-500 max-w-xl mx-auto">
-            A clean, accessible interface designed for children, parents, and therapy centers — simple enough for a child, powerful enough for professionals.
+            {t('homeScreenshots.description')}
           </p>
         </AnimatedSection>
 
@@ -110,7 +111,7 @@ export default function Screenshots() {
 
         {/* Bottom CTA */}
         <AnimatedSection variant="fadeUp" delay={0.2} className="text-center mt-12">
-          <p className="text-slate-500 text-sm mb-4">Ready to see it live?</p>
+          <p className="text-slate-500 text-sm mb-4">{t('homeScreenshots.ctaText')}</p>
           <div className="flex justify-center">
             <AppCTAButtons theme="onwhite" />
           </div>

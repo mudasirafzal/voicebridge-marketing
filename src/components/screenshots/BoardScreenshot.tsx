@@ -1,11 +1,15 @@
+import { useTranslation } from 'react-i18next'
+
 export default function BoardScreenshot() {
+  const { t } = useTranslation()
+
   const cards = [
-    { emoji: '💧', label: 'I need water', color: '#3B82F6' },
-    { emoji: '🍽️', label: 'I am hungry', color: '#F59E0B' },
-    { emoji: '🆘', label: 'I need help', color: '#EF4444' },
-    { emoji: '🎮', label: 'I want to play', color: '#8B5CF6' },
-    { emoji: '😊', label: 'I am happy', color: '#10B981' },
-    { emoji: '😴', label: 'I want to sleep', color: '#6366F1' },
+    { emoji: '💧', label: t('screenshotMockups.boardScreenshot.card1Label'), color: '#3B82F6' },
+    { emoji: '🍽️', label: t('screenshotMockups.boardScreenshot.card2Label'), color: '#F59E0B' },
+    { emoji: '🆘', label: t('screenshotMockups.boardScreenshot.card3Label'), color: '#EF4444' },
+    { emoji: '🎮', label: t('screenshotMockups.boardScreenshot.card4Label'), color: '#8B5CF6' },
+    { emoji: '😊', label: t('screenshotMockups.boardScreenshot.card5Label'), color: '#10B981' },
+    { emoji: '😴', label: t('screenshotMockups.boardScreenshot.card6Label'), color: '#6366F1' },
   ]
 
   return (
@@ -23,8 +27,8 @@ export default function BoardScreenshot() {
 
       {/* Header */}
       <rect x="0" y="0" width="256" height="56" fill="rgba(0,0,0,0.2)" />
-      <text x="128" y="24" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="Inter, sans-serif">VoiceBridge</text>
-      <text x="128" y="42" textAnchor="middle" fill="rgba(255,255,255,0.8)" fontSize="8" fontFamily="Inter, sans-serif">Hi, Musa 👋</text>
+      <text x="128" y="24" textAnchor="middle" fill="white" fontSize="10" fontWeight="700" fontFamily="Inter, sans-serif">{t('screenshotMockups.boardScreenshot.headerTitle')}</text>
+      <text x="128" y="42" textAnchor="middle" fill="rgba(255,255,255,0.8)" fontSize="8" fontFamily="Inter, sans-serif">{t('screenshotMockups.boardScreenshot.greeting')}</text>
 
       {/* Cards grid - 2 columns x 3 rows */}
       {cards.map((card, i) => {
@@ -45,9 +49,9 @@ export default function BoardScreenshot() {
 
       {/* Bottom nav */}
       <rect x="0" y="460" width="256" height="20" fill="rgba(0,0,0,0.2)" />
-      <text x="42" y="474" textAnchor="middle" fill="white" fontSize="8" fontFamily="Inter, sans-serif">Board</text>
-      <text x="128" y="474" textAnchor="middle" fill="rgba(255,255,255,0.6)" fontSize="8" fontFamily="Inter, sans-serif">History</text>
-      <text x="214" y="474" textAnchor="middle" fill="rgba(255,255,255,0.6)" fontSize="8" fontFamily="Inter, sans-serif">Settings</text>
+      <text x="42" y="474" textAnchor="middle" fill="white" fontSize="8" fontFamily="Inter, sans-serif">{t('screenshotMockups.boardScreenshot.navBoard')}</text>
+      <text x="128" y="474" textAnchor="middle" fill="rgba(255,255,255,0.6)" fontSize="8" fontFamily="Inter, sans-serif">{t('screenshotMockups.boardScreenshot.navHistory')}</text>
+      <text x="214" y="474" textAnchor="middle" fill="rgba(255,255,255,0.6)" fontSize="8" fontFamily="Inter, sans-serif">{t('screenshotMockups.boardScreenshot.navSettings')}</text>
     </svg>
   )
 }

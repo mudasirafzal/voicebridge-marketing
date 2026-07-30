@@ -1,1 +1,51 @@
-{}
+{
+  "sectionLabel": "تواصل معنا",
+  "title": "يسعدنا أن نسمع منك",
+  "subtitle": "سواء كنت أحد الوالدين لديك أسئلة أو مركز علاجي يتطلع للانضمام — نحن هنا للمساعدة.",
+  "form": {
+    "nameLabel": "الاسم *",
+    "namePlaceholder": "اسمك الكامل",
+    "emailLabel": "البريد الإلكتروني *",
+    "emailPlaceholder": "you@example.com",
+    "organizationLabel": "المؤسسة",
+    "organizationOptional": "(اختياري)",
+    "organizationPlaceholder": "مركز علاجي، مدرسة، إلخ.",
+    "subjectLabel": "الموضوع *",
+    "subjectPlaceholder": "كيف يمكننا المساعدة؟",
+    "messageLabel": "الرسالة *",
+    "messagePlaceholder": "أخبرنا المزيد عن حالتك...",
+    "errorBanner": "حدث خطأ ما. يرجى محاولة المراسلة مباشرة على info@mstechlabs.com.",
+    "submitButton": "إرسال الرسالة",
+    "submitting": "جارٍ الإرسال...",
+    "successTitle": "تم إرسال الرسالة!",
+    "successSubtitle": "سنتواصل معك خلال 24 ساعة.",
+    "sendAnother": "إرسال رسالة أخرى"
+  },
+  "validation": {
+    "nameMin": "يجب أن يتكون الاسم من حرفين على الأقل",
+    "emailInvalid": "يرجى إدخال عنوان بريد إلكتروني صالح",
+    "subjectMin": "يجب أن يتكون الموضوع من 5 أحرف على الأقل",
+    "messageMin": "يجب أن تتكون الرسالة من 20 حرفًا على الأقل"
+  },
+  "info": {
+    "email": {
+      "title": "راسلنا عبر البريد",
+      "value": "info@mstechlabs.com",
+      "desc": "نرد خلال 24 ساعة"
+    },
+    "responseTime": {
+      "title": "وقت الاستجابة",
+      "value": "أقل من 24 ساعة",
+      "desc": "من الاثنين إلى الجمعة، 9 صباحًا - 6 مساءً"
+    },
+    "supportFor": {
+      "title": "الدعم لـ",
+      "value": "العائلات والعيادات",
+      "desc": "دعم مخصص لمراكز العلاج"
+    }
+  },
+  "therapyCenterBanner": {
+    "title": "هل أنت مركز علاجي؟",
+    "description": "نقدم دعمًا مخصصًا للتأهيل، وإعداد حسابات بالجملة، وتخصيصًا لمراكز العلاج. تواصل معنا وسنقوم بترتيب مكالمة."
+  }
+}

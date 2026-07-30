@@ -1,1 +1,58 @@
-{}
+{
+  "seo": {
+    "title": "About",
+    "description": "Learn about VoiceBridge — why it was built, our mission, vision, and roadmap for the future of AAC communication technology for people of determination."
+  },
+  "hero": {
+    "titlePrefix": "Built for",
+    "titleHighlight": "Real Families",
+    "description": "VoiceBridge was born from a simple belief: every child deserves to be heard, and every parent deserves to know what their child needs."
+  },
+  "whyWeBuiltThis": {
+    "eyebrow": "Why We Built This",
+    "heading": "Communication is a Right, Not a Privilege",
+    "paragraph1": "In South Asia, the Middle East, and across the world, families of people of determination face a critical gap: the AAC tools that exist are designed for Western markets, prohibitively expensive, and almost never available in Urdu or Arabic.",
+    "paragraph2": "VoiceBridge was built to change that. We started with one question: what would a communication app look like if it was designed specifically for families of people of determination across South Asia and beyond?",
+    "paragraph3": "The answer: bilingual, affordable, mobile-first, and deeply connected to the family unit — with real-time parent alerts at its core.",
+    "mission": {
+      "icon": "🎯",
+      "title": "Our Mission",
+      "desc": "To give every non-verbal child a voice, and every parent the confidence of knowing what their child needs — regardless of geography or resources."
+    },
+    "vision": {
+      "icon": "🌟",
+      "title": "Our Vision",
+      "desc": "A world where communication disability is no longer a barrier to expressing fundamental human needs. Technology that truly serves underrepresented communities."
+    }
+  },
+  "values": {
+    "heading": "What We Stand For",
+    "items": {
+      "familyFirst": { "icon": "❤️", "title": "Family First", "desc": "Every decision is made by asking: does this make life easier for families?" },
+      "accessibility": { "icon": "🌍", "title": "Accessibility", "desc": "Great AAC tools should be available to every family, not just those with resources." },
+      "evidenceBased": { "icon": "🔬", "title": "Evidence-Based", "desc": "Our approach is informed by speech-language pathology research and clinical best practices." },
+      "privacy": { "icon": "🔒", "title": "Privacy", "desc": "We will never monetize your child's data. This is a non-negotiable principle." },
+      "continuousImprovement": { "icon": "📈", "title": "Continuous Improvement", "desc": "We ship updates regularly, driven by feedback from the families who use VoiceBridge." },
+      "community": { "icon": "🤝", "title": "Community", "desc": "VoiceBridge is built in partnership with families, therapists, and educators." }
+    }
+  },
+  "roadmap": {
+    "eyebrow": "Roadmap",
+    "heading": "Where We're Headed",
+    "description": "VoiceBridge is actively developed. Here's what we've built and what's coming.",
+    "phases": {
+      "phase1": {
+        "phase": "Phase 1 — Complete",
+        "items": ["Visual communication board", "Text-to-speech (English, Urdu & Arabic)", "Parent push notifications", "Multi-profile management", "Communication history", "apk download for android"]
+      },
+      "phase2": {
+        "phase": "Phase 2 — In Progress",
+        "items": ["Native iOS and Android apps", "Offline mode", "Improved card analytics", "More card categories", "Therapist collaboration tools"]
+      },
+      "phase3": {
+        "phase": "Phase 3 — Planned",
+        "items": ["Additional languages (Hindi)", "AI-powered card suggestions", "Integration with school systems", "Community card sharing"]
+      }
+    }
+  }
+}

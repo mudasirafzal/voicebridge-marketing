@@ -1,4 +1,7 @@
+import { useTranslation } from 'react-i18next'
+
 export default function WhatsAppButton() {
+  const { t } = useTranslation()
   const phone = '918088823483'
   const message = encodeURIComponent('Hi! I have a question about VoiceBridge.')
   const href = `https://wa.me/${phone}?text=${message}`
@@ -8,7 +11,7 @@ export default function WhatsAppButton() {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      aria-label="Chat with us on WhatsApp"
+      aria-label={t('cta.whatsappLabel')}
       className="fixed bottom-6 right-6 z-50 flex items-center justify-center w-14 h-14 rounded-full shadow-lg hover:scale-110 transition-transform"
       style={{ backgroundColor: '#25D366' }}
     >

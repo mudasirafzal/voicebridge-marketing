@@ -1,19 +1,36 @@
+import { useTranslation } from 'react-i18next'
 import SEO from '../components/SEO'
 import AnimatedSection from '../components/ui/AnimatedSection'
 import { CheckCircle } from 'lucide-react'
 
-const roadmapItems = [
-  { phase: 'Phase 1 — Complete', items: ['Visual communication board', 'Text-to-speech (English, Urdu & Arabic)', 'Parent push notifications', 'Multi-profile management', 'Communication history', 'apk download for android'], done: true },
-  { phase: 'Phase 2 — In Progress', items: ['Native iOS and Android apps', 'Offline mode', 'Improved card analytics', 'More card categories', 'Therapist collaboration tools'], done: false },
-  { phase: 'Phase 3 — Planned', items: ['Additional languages (Hindi)', 'AI-powered card suggestions', 'Integration with school systems', 'Community card sharing'], done: false },
-]
+const roadmapPhaseIds = ['phase1', 'phase2', 'phase3'] as const
+const roadmapDoneById: Record<(typeof roadmapPhaseIds)[number], boolean> = {
+  phase1: true,
+  phase2: false,
+  phase3: false,
+}
 
 export default function AboutPage() {
+  const { t } = useTranslation()
+
+  const roadmapItems = roadmapPhaseIds.map((id) => ({
+    phase: t(`aboutPage.roadmap.phases.${id}.phase`),
+    items: t(`aboutPage.roadmap.phases.${id}.items`, { returnObjects: true }) as string[],
+    done: roadmapDoneById[id],
+  }))
+
+  const valueIds = ['familyFirst', 'accessibility', 'evidenceBased', 'privacy', 'continuousImprovement', 'community'] as const
+  const values = valueIds.map((id) => ({
+    icon: t(`aboutPage.values.items.${id}.icon`),
+    title: t(`aboutPage.values.items.${id}.title`),
+    desc: t(`aboutPage.values.items.${id}.desc`),
+  }))
+
   return (
     <>
       <SEO
-        title="About"
-        description="Learn about VoiceBridge — why it was built, our mission, vision, and roadmap for the future of AAC communication technology for people of determination."
+        title={t('aboutPage.seo.title')}
+        description={t('aboutPage.seo.description')}
       />
 
       {/* Hero */}
@@ -21,13 +38,13 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection variant="fadeUp">
             <h1 className="text-4xl sm:text-5xl font-black mb-6">
-              Built for{' '}
+              {t('aboutPage.hero.titlePrefix')}{' '}
               <span className="bg-gradient-to-r from-violet-400 via-pink-400 to-amber-300 bg-clip-text text-transparent">
-                Real Families
+                {t('aboutPage.hero.titleHighlight')}
               </span>
             </h1>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              VoiceBridge was born from a simple belief: every child deserves to be heard, and every parent deserves to know what their child needs.
+              {t('aboutPage.hero.description')}
             </p>
           </AnimatedSection>
         </div>
@@ -38,27 +55,27 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <AnimatedSection variant="slideLeft">
-              <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">Why We Built This</span>
+              <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">{t('aboutPage.whyWeBuiltThis.eyebrow')}</span>
               <h2 className="mt-3 text-3xl font-black text-slate-900 mb-6">
-                Communication is a Right, Not a Privilege
+                {t('aboutPage.whyWeBuiltThis.heading')}
               </h2>
               <div className="space-y-4 text-slate-600 leading-relaxed">
                 <p>
-                  In South Asia, the Middle East, and across the world, families of people of determination face a critical gap: the AAC tools that exist are designed for Western markets, prohibitively expensive, and almost never available in Urdu or Arabic.
+                  {t('aboutPage.whyWeBuiltThis.paragraph1')}
                 </p>
                 <p>
-                  VoiceBridge was built to change that. We started with one question: what would a communication app look like if it was designed specifically for families of people of determination across South Asia and beyond?
+                  {t('aboutPage.whyWeBuiltThis.paragraph2')}
                 </p>
                 <p>
-                  The answer: bilingual, affordable, mobile-first, and deeply connected to the family unit — with real-time parent alerts at its core.
+                  {t('aboutPage.whyWeBuiltThis.paragraph3')}
                 </p>
               </div>
             </AnimatedSection>
             <AnimatedSection variant="slideRight">
               <div className="space-y-4">
                 {[
-                  { icon: '🎯', title: 'Our Mission', desc: 'To give every non-verbal child a voice, and every parent the confidence of knowing what their child needs — regardless of geography or resources.' },
-                  { icon: '🌟', title: 'Our Vision', desc: 'A world where communication disability is no longer a barrier to expressing fundamental human needs. Technology that truly serves underrepresented communities.' },
+                  { icon: t('aboutPage.whyWeBuiltThis.mission.icon'), title: t('aboutPage.whyWeBuiltThis.mission.title'), desc: t('aboutPage.whyWeBuiltThis.mission.desc') },
+                  { icon: t('aboutPage.whyWeBuiltThis.vision.icon'), title: t('aboutPage.whyWeBuiltThis.vision.title'), desc: t('aboutPage.whyWeBuiltThis.vision.desc') },
                 ].map((item) => (
                   <div key={item.title} className="bg-slate-50 rounded-2xl p-6 border border-slate-100">
                     <div className="text-3xl mb-3">{item.icon}</div>
@@ -76,17 +93,10 @@ export default function AboutPage() {
       <section className="py-24 bg-slate-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection variant="fadeUp" className="text-center mb-12">
-            <h2 className="text-3xl font-black text-slate-900">What We Stand For</h2>
+            <h2 className="text-3xl font-black text-slate-900">{t('aboutPage.values.heading')}</h2>
           </AnimatedSection>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {[
-              { icon: '❤️', title: 'Family First', desc: 'Every decision is made by asking: does this make life easier for families?' },
-              { icon: '🌍', title: 'Accessibility', desc: 'Great AAC tools should be available to every family, not just those with resources.' },
-              { icon: '🔬', title: 'Evidence-Based', desc: 'Our approach is informed by speech-language pathology research and clinical best practices.' },
-              { icon: '🔒', title: 'Privacy', desc: 'We will never monetize your child\'s data. This is a non-negotiable principle.' },
-              { icon: '📈', title: 'Continuous Improvement', desc: 'We ship updates regularly, driven by feedback from the families who use VoiceBridge.' },
-              { icon: '🤝', title: 'Community', desc: 'VoiceBridge is built in partnership with families, therapists, and educators.' },
-            ].map((v, i) => (
+            {values.map((v, i) => (
               <AnimatedSection key={v.title} variant="fadeUp" delay={i * 0.08}>
                 <div className="bg-white rounded-2xl p-6 border border-slate-100 shadow-sm">
                   <div className="text-3xl mb-3">{v.icon}</div>
@@ -103,9 +113,9 @@ export default function AboutPage() {
       <section className="py-24 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection variant="fadeUp" className="text-center mb-12">
-            <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">Roadmap</span>
-            <h2 className="mt-3 text-3xl font-black text-slate-900">Where We're Headed</h2>
-            <p className="mt-4 text-slate-500">VoiceBridge is actively developed. Here's what we've built and what's coming.</p>
+            <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">{t('aboutPage.roadmap.eyebrow')}</span>
+            <h2 className="mt-3 text-3xl font-black text-slate-900">{t('aboutPage.roadmap.heading')}</h2>
+            <p className="mt-4 text-slate-500">{t('aboutPage.roadmap.description')}</p>
           </AnimatedSection>
           <div className="space-y-8">
             {roadmapItems.map((phase, i) => (

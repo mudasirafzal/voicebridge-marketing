@@ -1,51 +1,18 @@
+import { useTranslation } from 'react-i18next'
 import SEO from '../components/SEO'
 import AnimatedSection from '../components/ui/AnimatedSection'
 import AppCTAButtons from '../components/ui/AppCTAButtons'
 import { Link } from 'react-router-dom'
 
-const detailedSteps = [
-  {
-    number: '01',
-    icon: '👤',
-    title: 'Create Your Account',
-    description: 'Sign up as a parent or therapy center in under 2 minutes. No credit card required. You\'ll be taken directly to the setup wizard.',
-    details: ['Choose parent or therapy center account type', 'Access your dashboard immediately'],
-    color: 'violet',
-  },
-  {
-    number: '02',
-    icon: '👧',
-    title: 'Set Up Your Child\'s Profile',
-    description: 'Add your child\'s name, photo, and preferred language. This personalizes the experience — the app will use your child\'s name in spoken phrases.',
-    details: ['Enter child name (used in text-to-speech)', 'Choose English, Urdu, or Arabic', 'Set accessibility preferences'],
-    color: 'pink',
-  },
-  {
-    number: '03',
-    icon: '🎨',
-    title: 'Customize the Communication Board',
-    description: 'Start with our pre-built card library or build from scratch. Organize cards into categories that match your child\'s daily needs and routine.',
-    details: ['Browse 100+ pre-built cards', 'Add custom cards with photos from your gallery', 'Arrange and group cards by category'],
-    color: 'amber',
-  },
-  {
-    number: '04',
-    icon: '📱',
-    title: 'Child Uses the Board',
-    description: 'Hand the device to your child. The full-screen communication board is simple enough for them to use independently. Tapping a card speaks the phrase aloud.',
-    details: ['Large colorful cards fill the screen', 'Audio feedback on every tap', 'Child can navigate between card categories'],
-    color: 'emerald',
-  },
-  {
-    number: '05',
-    icon: '🔔',
-    title: 'Parents Get Notified Instantly',
-    description: 'Every card tap sends an immediate push notification to all connected devices. You see your child\'s name and exactly what they communicated.',
-    details: ['Push notification arrives within seconds', 'Notification shows child name + phrase', 'Acknowledge with one tap'],
-    color: 'blue',
-  },
+const stepIds = ['createAccount', 'setupProfile', 'customizeBoard', 'childUsesBoard', 'parentsNotified'] as const
 
-]
+const detailedStepsMeta = [
+  { id: 'createAccount', number: '01', icon: '👤', color: 'violet' },
+  { id: 'setupProfile', number: '02', icon: '👧', color: 'pink' },
+  { id: 'customizeBoard', number: '03', icon: '🎨', color: 'amber' },
+  { id: 'childUsesBoard', number: '04', icon: '📱', color: 'emerald' },
+  { id: 'parentsNotified', number: '05', icon: '🔔', color: 'blue' },
+] satisfies { id: typeof stepIds[number]; number: string; icon: string; color: string }[]
 
 const colorMap: Record<string, { bg: string; text: string; badge: string }> = {
   violet: { bg: 'bg-violet-600', text: 'text-violet-600', badge: 'bg-violet-50 text-violet-700 border-violet-200' },
@@ -56,51 +23,35 @@ const colorMap: Record<string, { bg: string; text: string; badge: string }> = {
   indigo: { bg: 'bg-indigo-500', text: 'text-indigo-500', badge: 'bg-indigo-50 text-indigo-700 border-indigo-200' },
 }
 
-const journeys = [
-  {
-    persona: '👨‍👩‍👧 Parent / Caregiver',
-    color: 'from-violet-500 to-violet-600',
-    steps: [
-      'Create account → set up child profile',
-      'Customize communication board',
-      'Enable push notifications',
-      'Receive alerts as child communicates',
-      'Acknowledge requests to close the loop',
-      'Review weekly communication history',
-    ],
-  },
-  {
-    persona: '👧 Child (Non-verbal)',
-    color: 'from-pink-500 to-pink-600',
-    steps: [
-      'Open VoiceBridge on their device',
-      'See their personal communication board',
-      'Browse and tap the card they need',
-      'Hear the phrase spoken aloud',
-      'See confirmation the parent was notified',
-      'Communication need is met',
-    ],
-  },
-  {
-    persona: '🏥 Therapist / Therapy Center',
-    color: 'from-amber-500 to-amber-600',
-    steps: [
-      'Create therapy center account',
-      'Onboard client families',
-      'View all client communication boards',
-      'Access session histories and analytics',
-      'Add session notes and observations',
-      'Share progress reports with parents',
-    ],
-  },
-]
+const journeyIds = ['parent', 'child', 'therapist'] as const
+
+const journeysMeta = [
+  { id: 'parent', color: 'from-violet-500 to-violet-600' },
+  { id: 'child', color: 'from-pink-500 to-pink-600' },
+  { id: 'therapist', color: 'from-amber-500 to-amber-600' },
+] satisfies { id: typeof journeyIds[number]; color: string }[]
 
 export default function HowItWorksPage() {
+  const { t } = useTranslation()
+
+  const detailedSteps = detailedStepsMeta.map((meta) => ({
+    ...meta,
+    title: t(`howItWorksPage.steps.${meta.id}.title`),
+    description: t(`howItWorksPage.steps.${meta.id}.description`),
+    details: t(`howItWorksPage.steps.${meta.id}.details`, { returnObjects: true }) as string[],
+  }))
+
+  const journeys = journeysMeta.map((meta) => ({
+    ...meta,
+    persona: t(`howItWorksPage.journeys.${meta.id}.persona`),
+    steps: t(`howItWorksPage.journeys.${meta.id}.steps`, { returnObjects: true }) as string[],
+  }))
+
   return (
     <>
       <SEO
-        title="How It Works"
-        description="Learn how VoiceBridge works — from setup to daily use. See step-by-step flows for parents, children, and therapy centers."
+        title={t('howItWorksPage.seo.title')}
+        description={t('howItWorksPage.seo.description')}
       />
 
       {/* Hero */}
@@ -108,14 +59,14 @@ export default function HowItWorksPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection variant="fadeUp">
             <h1 className="text-4xl sm:text-5xl font-black mb-6">
-              From Setup to{' '}
+              {t('howItWorksPage.hero.titlePart1')}{' '}
               <span className="bg-gradient-to-r from-violet-400 via-pink-400 to-amber-300 bg-clip-text text-transparent">
-                First Communication
+                {t('howItWorksPage.hero.titleHighlight')}
               </span>
-              {' '}in Minutes
+              {' '}{t('howItWorksPage.hero.titlePart2')}
             </h1>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              VoiceBridge is designed to get out of the way and let communication happen naturally. Here's how the whole system works.
+              {t('howItWorksPage.hero.description')}
             </p>
           </AnimatedSection>
         </div>
@@ -125,7 +76,7 @@ export default function HowItWorksPage() {
       <section className="py-24 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection variant="fadeUp" className="text-center mb-16">
-            <h2 className="text-3xl font-black text-slate-900">Step-by-Step Guide</h2>
+            <h2 className="text-3xl font-black text-slate-900">{t('howItWorksPage.stepsSection.heading')}</h2>
           </AnimatedSection>
           <div className="space-y-12">
             {detailedSteps.map((step, i) => {
@@ -168,8 +119,8 @@ export default function HowItWorksPage() {
       <section className="py-24 bg-slate-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection variant="fadeUp" className="text-center mb-16">
-            <h2 className="text-3xl font-black text-slate-900">User Journeys</h2>
-            <p className="mt-4 text-slate-500">How each person in the VoiceBridge ecosystem experiences the app.</p>
+            <h2 className="text-3xl font-black text-slate-900">{t('howItWorksPage.journeysSection.heading')}</h2>
+            <p className="mt-4 text-slate-500">{t('howItWorksPage.journeysSection.description')}</p>
           </AnimatedSection>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {journeys.map((journey, i) => (
@@ -201,14 +152,14 @@ export default function HowItWorksPage() {
       <section className="py-20 bg-gradient-to-r from-violet-600 to-pink-500">
         <div className="max-w-3xl mx-auto px-4 text-center">
           <AnimatedSection variant="fadeUp">
-            <h2 className="text-3xl font-black text-white mb-4">Ready to get started?</h2>
-            <p className="text-violet-100 mb-8">Set up your child's board in less than 5 minutes.</p>
+            <h2 className="text-3xl font-black text-white mb-4">{t('howItWorksPage.cta.heading')}</h2>
+            <p className="text-violet-100 mb-8">{t('howItWorksPage.cta.description')}</p>
             <div className="flex justify-center">
               <AppCTAButtons theme="light" />
             </div>
             <div className="mt-6 flex justify-center">
               <Link to="/docs" className="px-6 py-3 border-2 border-white/60 text-white font-semibold rounded-xl hover:bg-white/10 transition-colors">
-                Read the Docs
+                {t('howItWorksPage.cta.readDocs')}
               </Link>
             </div>
           </AnimatedSection>

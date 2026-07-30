@@ -1,36 +1,13 @@
 import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import AnimatedSection from '../../components/ui/AnimatedSection'
 
-const steps = [
-  {
-    number: '01',
-    icon: '📱',
-    title: 'Child Opens the Board',
-    description: 'The child opens VoiceBridge on any device. Their personalized communication board appears with large, colorful visual cards — each representing a common need or feeling.',
-    color: 'violet',
-  },
-  {
-    number: '02',
-    icon: '🗣️',
-    title: 'Card Speaks Aloud',
-    description: 'When the child taps a card, the app reads the phrase aloud using the child\'s name — "Musa needs water." This reinforces language learning while immediately communicating the need.',
-    color: 'pink',
-  },
-  {
-    number: '03',
-    icon: '🔔',
-    title: 'Parent Gets Notified',
-    description: 'The parent or caregiver receives a real-time push notification on their device. No matter where they are in the house or building, they know immediately what their child needs.',
-    color: 'amber',
-  },
-  {
-    number: '04',
-    icon: '✅',
-    title: 'Communication Loop Closes',
-    description: 'The parent acknowledges the request in the app, completing the communication loop. The child sees confirmation, building trust and encouraging further communication attempts.',
-    color: 'emerald',
-  },
+const stepMeta = [
+  { number: '01', icon: '📱', color: 'violet' },
+  { number: '02', icon: '🗣️', color: 'pink' },
+  { number: '03', icon: '🔔', color: 'amber' },
+  { number: '04', icon: '✅', color: 'emerald' },
 ]
 
 const colorMap: Record<string, { bg: string; text: string; border: string; line: string }> = {
@@ -40,7 +17,7 @@ const colorMap: Record<string, { bg: string; text: string; border: string; line:
   emerald: { bg: 'bg-emerald-500', text: 'text-emerald-500', border: 'border-emerald-200', line: 'bg-emerald-500' },
 }
 
-function StepCard({ step, index }: { step: typeof steps[0]; index: number }) {
+function StepCard({ step, index }: { step: typeof stepMeta[0] & { title: string; description: string }; index: number }) {
   const ref = useRef<HTMLDivElement>(null)
   const isInView = useInView(ref, { once: true, margin: '-80px' })
   const colors = colorMap[step.color]
@@ -69,16 +46,24 @@ function StepCard({ step, index }: { step: typeof steps[0]; index: number }) {
 }
 
 export default function HowItWorks() {
+  const { t } = useTranslation()
+
+  const steps = stepMeta.map((s) => ({
+    ...s,
+    title: t(`homeHowItWorks.steps.${s.number}.title`),
+    description: t(`homeHowItWorks.steps.${s.number}.description`),
+  }))
+
   return (
     <section className="py-24 bg-slate-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection variant="fadeUp" className="text-center mb-16">
-          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">How it Works</span>
+          <span className="text-sm font-semibold text-violet-600 uppercase tracking-wider">{t('homeHowItWorks.eyebrow')}</span>
           <h2 className="mt-3 text-3xl sm:text-4xl font-black text-slate-900">
-            Simple. Instant. Powerful.
+            {t('homeHowItWorks.title')}
           </h2>
           <p className="mt-4 text-lg text-slate-500 max-w-xl mx-auto">
-            Four steps that transform how your family communicates every single day.
+            {t('homeHowItWorks.subtitle')}
           </p>
         </AnimatedSection>
 

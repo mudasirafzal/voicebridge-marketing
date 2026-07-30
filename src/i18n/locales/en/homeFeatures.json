@@ -1,1 +1,43 @@
-{}
+{
+  "eyebrow": "Features",
+  "title": "Everything Your Family Needs",
+  "subtitle": "VoiceBridge is purpose-built for families of people of determination — with every feature designed around real-world communication needs.",
+  "items": {
+    "visualCards": {
+      "title": "Visual Communication Cards",
+      "description": "Pre-built card libraries in English, Urdu, and Arabic, plus custom card creation. Each card has an image, label, and audio — designed for quick, intuitive tapping."
+    },
+    "instantAlerts": {
+      "title": "Instant Caregiver Alerts",
+      "description": "Real-time push notifications reach parents and caregivers the moment a card is tapped — with the person's name and phrase spoken aloud automatically."
+    },
+    "acknowledgeStop": {
+      "title": "Acknowledge & Stop",
+      "description": "When a caregiver acknowledges a request, the board stops speaking on all paired devices simultaneously — closing the communication loop instantly."
+    },
+    "voiceStyles": {
+      "title": "Voice & Speaking Styles",
+      "description": "Choose from multiple voice accents and speaking style presets — Natural, Child, Clear, or Expressive — to find the voice that works best for each individual."
+    },
+    "multiProfile": {
+      "title": "Multi-Profile Support",
+      "description": "Manage multiple profiles from a single account. Each profile has its own personalized board, communication history, and settings."
+    },
+    "trilingual": {
+      "title": "Trilingual: English, Urdu & Arabic",
+      "description": "Full English, Urdu, and Arabic support — card labels, text-to-speech, and app interface. Urdu and Arabic use authentic native-accent pronunciation via high-quality TTS."
+    },
+    "therapyDashboard": {
+      "title": "Therapy Center Dashboard",
+      "description": "Dedicated professional tools for therapists and care centers. Manage multiple client profiles, view boards, and track communication history."
+    },
+    "mobileApp": {
+      "title": "Mobile App (iOS & Android)",
+      "description": "Dedicated mobile app for the communication board and caregiver alerts — optimized for tablets as dedicated board devices with no accidental back-navigation."
+    },
+    "communicationHistory": {
+      "title": "Communication History",
+      "description": "Every tap is logged with timestamp and acknowledgement record. Review patterns and share activity summaries with therapists and educators."
+    }
+  }
+}

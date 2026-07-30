@@ -1,1 +1,28 @@
-{}
+{
+  "eyebrow": "What is VoiceBridge?",
+  "titlePlain": "Communication technology built",
+  "titleHighlight": "for families, not clinics",
+  "paragraph1": "VoiceBridge is an Augmentative and Alternative Communication (AAC) app designed for families of non-verbal people of determination. Unlike complex clinical tools, VoiceBridge is intuitive enough for a child to use independently.",
+  "paragraph2": "Parents and caregivers receive real-time notifications the moment their child communicates — creating a genuine, continuous communication loop throughout the day.",
+  "steps": {
+    "1": {
+      "title": "Child taps a card",
+      "desc": "A non-verbal child browses their personalized visual board and taps the card that expresses what they need."
+    },
+    "2": {
+      "title": "Card speaks aloud",
+      "desc": "The app speaks the phrase using text-to-speech with the child's name — reinforcing communication and identity."
+    },
+    "3": {
+      "title": "Parent is notified",
+      "desc": "A real-time push notification reaches the parent or caregiver instantly, wherever they are."
+    }
+  },
+  "stats": {
+    "languagesCount": "3",
+    "languagesLabel": "Languages supported — English, Urdu & Arabic",
+    "languagesSubtext": "More languages coming soon",
+    "didYouKnowTitle": "Did you know?",
+    "didYouKnowText": "Research shows that AAC tools can dramatically improve communication outcomes for non-verbal children, often unlocking the ability to express needs they couldn't before."
+  }
+}

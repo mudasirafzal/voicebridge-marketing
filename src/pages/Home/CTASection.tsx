@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import AnimatedSection from '../../components/ui/AnimatedSection'
 import AppCTAButtons from '../../components/ui/AppCTAButtons'
 
 export default function CTASection() {
+  const { t } = useTranslation()
+
   return (
     <section className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-violet-600 via-pink-500 to-amber-400" />
@@ -25,10 +28,10 @@ export default function CTASection() {
             💬
           </motion.div>
           <h2 className="text-3xl sm:text-5xl font-black text-white mb-6 leading-tight">
-            Ready to Give Your Loved One a Voice?
+            {t('homeCTA.title')}
           </h2>
           <p className="text-lg text-white/80 mb-10 max-w-xl mx-auto">
-            Join hundreds of families who are already using VoiceBridge to transform how their loved ones communicate. Set up takes less than 5 minutes.
+            {t('homeCTA.description')}
           </p>
           <div className="flex justify-center">
             <AppCTAButtons theme="light" />
@@ -38,7 +41,7 @@ export default function CTASection() {
               to="/contact"
               className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white/20 border border-white/40 text-white font-bold rounded-xl hover:bg-white/30 transition-all"
             >
-              Contact Us
+              {t('homeCTA.contactUs')}
             </Link>
           </div>
         </AnimatedSection>

@@ -1,1 +1,32 @@
-{}
+{
+  "eyebrow": "Product Screenshots",
+  "title": "See VoiceBridge in Action",
+  "description": "A clean, accessible interface designed for children, parents, and therapy centers — simple enough for a child, powerful enough for professionals.",
+  "tabs": {
+    "board": {
+      "label": "🗣️ Communication Board",
+      "desc": "Child taps a card — it speaks aloud and notifies the parent instantly."
+    },
+    "parent-setup": {
+      "label": "👶 Add Child Profile",
+      "desc": "Set up a child profile in under a minute. Choose name, language, and a photo."
+    },
+    "parent-dashboard": {
+      "label": "🏠 Parent Dashboard",
+      "desc": "See all profiles, live alerts, and recent communication events in one place."
+    },
+    "card-config": {
+      "label": "💳 Configure Cards",
+      "desc": "Toggle, reorder, and customise communication cards with a simple drag-and-drop interface."
+    },
+    "therapy": {
+      "label": "🏥 Therapy Center",
+      "desc": "Manage families, assign therapists, and monitor progress across the entire center."
+    },
+    "alerts": {
+      "label": "🔔 Alerts",
+      "desc": "Parents receive instant push notifications and can acknowledge requests in one tap."
+    }
+  },
+  "ctaText": "Ready to see it live?"
+}

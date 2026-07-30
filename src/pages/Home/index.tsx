@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next'
 import SEO from '../../components/SEO'
 import Hero from './Hero'
 import Overview from './Overview'
@@ -10,11 +11,13 @@ import CTASection from './CTASection'
 import Contact from './Contact'
 
 export default function Home() {
+  const { t } = useTranslation()
+
   return (
     <>
       <SEO
-        title="VoiceBridge - AAC Communication App for People of Determination"
-        description="VoiceBridge helps non-verbal people of determination express their needs through visual communication cards. Real-time parent alerts. Supports English, Urdu & Arabic."
+        title={t('home.seo.title')}
+        description={t('home.seo.description')}
       />
       <Hero />
       <Overview />

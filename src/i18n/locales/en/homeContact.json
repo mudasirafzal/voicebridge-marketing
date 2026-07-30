@@ -1,1 +1,51 @@
-{}
+{
+  "sectionLabel": "Get in Touch",
+  "title": "We'd Love to Hear from You",
+  "subtitle": "Whether you're a parent with questions or a therapy center looking to onboard — we're here to help.",
+  "form": {
+    "nameLabel": "Name *",
+    "namePlaceholder": "Your full name",
+    "emailLabel": "Email *",
+    "emailPlaceholder": "you@example.com",
+    "organizationLabel": "Organization",
+    "organizationOptional": "(optional)",
+    "organizationPlaceholder": "Therapy center, school, etc.",
+    "subjectLabel": "Subject *",
+    "subjectPlaceholder": "How can we help?",
+    "messageLabel": "Message *",
+    "messagePlaceholder": "Tell us more about your situation...",
+    "errorBanner": "Something went wrong. Please try emailing info@mstechlabs.com directly.",
+    "submitButton": "Send Message",
+    "submitting": "Sending...",
+    "successTitle": "Message Sent!",
+    "successSubtitle": "We'll get back to you within 24 hours.",
+    "sendAnother": "Send Another"
+  },
+  "validation": {
+    "nameMin": "Name must be at least 2 characters",
+    "emailInvalid": "Please enter a valid email address",
+    "subjectMin": "Subject must be at least 5 characters",
+    "messageMin": "Message must be at least 20 characters"
+  },
+  "info": {
+    "email": {
+      "title": "Email Us",
+      "value": "info@mstechlabs.com",
+      "desc": "We reply within 24 hours"
+    },
+    "responseTime": {
+      "title": "Response Time",
+      "value": "< 24 hours",
+      "desc": "Mon–Fri, 9am–6pm"
+    },
+    "supportFor": {
+      "title": "Support For",
+      "value": "Families & Clinics",
+      "desc": "Dedicated support for therapy centers"
+    }
+  },
+  "therapyCenterBanner": {
+    "title": "Are you a therapy center?",
+    "description": "We offer dedicated onboarding support, bulk account setup, and customization for therapy centers. Reach out and we'll set up a call."
+  }
+}

@@ -3,6 +3,8 @@ import { initReactI18next } from 'react-i18next'
 
 import enCommon from './locales/en/common.json'
 import enHome from './locales/en/home.json'
+import enHomeHowItWorks from './locales/en/homeHowItWorks.json'
+import enHomeWhyChooseUs from './locales/en/homeWhyChooseUs.json'
 import enHomeOverview from './locales/en/homeOverview.json'
 import enHomeFeatures from './locales/en/homeFeatures.json'
 import enHomeScreenshots from './locales/en/homeScreenshots.json'
@@ -15,9 +17,15 @@ import enHowItWorksPage from './locales/en/howItWorksPage.json'
 import enUseCasesPage from './locales/en/useCasesPage.json'
 import enAboutPage from './locales/en/aboutPage.json'
 import enDocsPage from './locales/en/docsPage.json'
+import enContactPage from './locales/en/contactPage.json'
+import enPrivacyPage from './locales/en/privacyPage.json'
+import enTermsPage from './locales/en/termsPage.json'
+import enScreenshotMockups from './locales/en/screenshotMockups.json'
 
 import arCommon from './locales/ar/common.json'
 import arHome from './locales/ar/home.json'
+import arHomeHowItWorks from './locales/ar/homeHowItWorks.json'
+import arHomeWhyChooseUs from './locales/ar/homeWhyChooseUs.json'
 import arHomeOverview from './locales/ar/homeOverview.json'
 import arHomeFeatures from './locales/ar/homeFeatures.json'
 import arHomeScreenshots from './locales/ar/homeScreenshots.json'
@@ -30,6 +38,10 @@ import arHowItWorksPage from './locales/ar/howItWorksPage.json'
 import arUseCasesPage from './locales/ar/useCasesPage.json'
 import arAboutPage from './locales/ar/aboutPage.json'
 import arDocsPage from './locales/ar/docsPage.json'
+import arContactPage from './locales/ar/contactPage.json'
+import arPrivacyPage from './locales/ar/privacyPage.json'
+import arTermsPage from './locales/ar/termsPage.json'
+import arScreenshotMockups from './locales/ar/screenshotMockups.json'
 
 export const RTL_LANGUAGES = ['ar']
 
@@ -52,7 +64,9 @@ export function applyDocumentDirection(lang: string) {
 // so independent translation work never touches the same file.
 const en = {
   ...enCommon,
-  home: enHome.hero ? { hero: enHome.hero } : {},
+  home: enHome,
+  homeHowItWorks: enHomeHowItWorks,
+  homeWhyChooseUs: enHomeWhyChooseUs,
   homeOverview: enHomeOverview,
   homeFeatures: enHomeFeatures,
   homeScreenshots: enHomeScreenshots,
@@ -65,11 +79,17 @@ const en = {
   useCasesPage: enUseCasesPage,
   aboutPage: enAboutPage,
   docsPage: enDocsPage,
+  contactPage: enContactPage,
+  privacyPage: enPrivacyPage,
+  termsPage: enTermsPage,
+  screenshotMockups: enScreenshotMockups,
 }
 
 const ar = {
   ...arCommon,
-  home: arHome.hero ? { hero: arHome.hero } : {},
+  home: arHome,
+  homeHowItWorks: arHomeHowItWorks,
+  homeWhyChooseUs: arHomeWhyChooseUs,
   homeOverview: arHomeOverview,
   homeFeatures: arHomeFeatures,
   homeScreenshots: arHomeScreenshots,
@@ -82,6 +102,10 @@ const ar = {
   useCasesPage: arUseCasesPage,
   aboutPage: arAboutPage,
   docsPage: arDocsPage,
+  contactPage: arContactPage,
+  privacyPage: arPrivacyPage,
+  termsPage: arTermsPage,
+  screenshotMockups: arScreenshotMockups,
 }
 
 i18n.use(initReactI18next).init({

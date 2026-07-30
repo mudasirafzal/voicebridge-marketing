@@ -1,1 +1,105 @@
-{}
+{
+  "seo": {
+    "title": "How It Works",
+    "description": "Learn how VoiceBridge works — from setup to daily use. See step-by-step flows for parents, children, and therapy centers."
+  },
+  "hero": {
+    "titlePart1": "From Setup to",
+    "titleHighlight": "First Communication",
+    "titlePart2": "in Minutes",
+    "description": "VoiceBridge is designed to get out of the way and let communication happen naturally. Here's how the whole system works."
+  },
+  "stepsSection": {
+    "heading": "Step-by-Step Guide"
+  },
+  "steps": {
+    "createAccount": {
+      "title": "Create Your Account",
+      "description": "Sign up as a parent or therapy center in under 2 minutes. No credit card required. You'll be taken directly to the setup wizard.",
+      "details": [
+        "Choose parent or therapy center account type",
+        "Access your dashboard immediately"
+      ]
+    },
+    "setupProfile": {
+      "title": "Set Up Your Child's Profile",
+      "description": "Add your child's name, photo, and preferred language. This personalizes the experience — the app will use your child's name in spoken phrases.",
+      "details": [
+        "Enter child name (used in text-to-speech)",
+        "Choose English, Urdu, or Arabic",
+        "Set accessibility preferences"
+      ]
+    },
+    "customizeBoard": {
+      "title": "Customize the Communication Board",
+      "description": "Start with our pre-built card library or build from scratch. Organize cards into categories that match your child's daily needs and routine.",
+      "details": [
+        "Browse 100+ pre-built cards",
+        "Add custom cards with photos from your gallery",
+        "Arrange and group cards by category"
+      ]
+    },
+    "childUsesBoard": {
+      "title": "Child Uses the Board",
+      "description": "Hand the device to your child. The full-screen communication board is simple enough for them to use independently. Tapping a card speaks the phrase aloud.",
+      "details": [
+        "Large colorful cards fill the screen",
+        "Audio feedback on every tap",
+        "Child can navigate between card categories"
+      ]
+    },
+    "parentsNotified": {
+      "title": "Parents Get Notified Instantly",
+      "description": "Every card tap sends an immediate push notification to all connected devices. You see your child's name and exactly what they communicated.",
+      "details": [
+        "Push notification arrives within seconds",
+        "Notification shows child name + phrase",
+        "Acknowledge with one tap"
+      ]
+    }
+  },
+  "journeysSection": {
+    "heading": "User Journeys",
+    "description": "How each person in the VoiceBridge ecosystem experiences the app."
+  },
+  "journeys": {
+    "parent": {
+      "persona": "👨‍👩‍👧 Parent / Caregiver",
+      "steps": [
+        "Create account → set up child profile",
+        "Customize communication board",
+        "Enable push notifications",
+        "Receive alerts as child communicates",
+        "Acknowledge requests to close the loop",
+        "Review weekly communication history"
+      ]
+    },
+    "child": {
+      "persona": "👧 Child (Non-verbal)",
+      "steps": [
+        "Open VoiceBridge on their device",
+        "See their personal communication board",
+        "Browse and tap the card they need",
+        "Hear the phrase spoken aloud",
+        "See confirmation the parent was notified",
+        "Communication need is met"
+      ]
+    },
+    "therapist": {
+      "persona": "🏥 Therapist / Therapy Center",
+      "steps": [
+        "Create therapy center account",
+        "Onboard client families",
+        "View all client communication boards",
+        "Access session histories and analytics",
+        "Add session notes and observations",
+        "Share progress reports with parents"
+      ]
+    }
+  },
+  "cta": {
+    "heading": "Ready to get started?",
+    "description": "Set up your child's board in less than 5 minutes.",
+    "readDocs": "Read the Docs"
+  }
+}
