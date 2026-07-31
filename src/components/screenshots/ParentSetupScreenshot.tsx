@@ -15,7 +15,6 @@ export default function ParentSetupScreenshot() {
   // Default/start-anchored text (labels, values) needs both its position
   // mirrored AND its anchor flipped to 'end' so it still reads from its own
   // edge instead of overflowing across the mirrored layout.
-  const startAnchor = rtl ? 'end' : undefined
 
   return (
     <svg viewBox={`0 0 ${W} 700`} xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -42,18 +41,18 @@ export default function ParentSetupScreenshot() {
 
       {/* Form fields */}
       {/* Child's Name */}
-      <text x={mx(24)} y="218" textAnchor={startAnchor} fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.nameLabel')}</text>
+      <text x={mx(24)} y="218" fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.nameLabel')}</text>
       <rect x={mxRect(20, 350)} y="224" width="350" height="42" rx="10" fill="white" stroke="#7c3aed" strokeWidth="2" />
-      <text x={mx(36)} y="250" textAnchor={startAnchor} fill="#1e1b4b" fontSize="14" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.nameValue')}</text>
+      <text x={mx(36)} y="250" fill="#1e1b4b" fontSize="14" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.nameValue')}</text>
 
       {/* Date of Birth */}
-      <text x={mx(24)} y="284" textAnchor={startAnchor} fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.dobLabel')}</text>
+      <text x={mx(24)} y="284" fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.dobLabel')}</text>
       <rect x={mxRect(20, 350)} y="290" width="350" height="42" rx="10" fill="white" stroke="#e2e8f0" strokeWidth="1.5" />
-      <text x={mx(36)} y="316" textAnchor={startAnchor} fill="#6b7280" fontSize="14" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.dobValue')}</text>
-      <text x={mx(340)} y="316" textAnchor={startAnchor} fill="#9ca3af" fontSize="16" fontFamily="Inter, sans-serif">📅</text>
+      <text x={mx(36)} y="316" fill="#6b7280" fontSize="14" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.dobValue')}</text>
+      <text x={mx(340)} y="316" fill="#9ca3af" fontSize="16" fontFamily="Inter, sans-serif">📅</text>
 
       {/* Preferred Language */}
-      <text x={mx(24)} y="350" textAnchor={startAnchor} fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.languageLabel')}</text>
+      <text x={mx(24)} y="350" fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.languageLabel')}</text>
       {/* English option - selected */}
       <rect x={mxRect(20, 165)} y="356" width="165" height="56" rx="10" fill="#ede9fe" stroke="#7c3aed" strokeWidth="2" />
       <text x={mx(102)} y="381" textAnchor="middle" fill="#1e1b4b" fontSize="20" fontFamily="Inter, sans-serif">🇬🇧</text>
@@ -64,15 +63,15 @@ export default function ParentSetupScreenshot() {
       <text x={mx(287)} y="400" textAnchor="middle" fill="#6b7280" fontSize="12" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.urduLabel')}</text>
 
       {/* Diagnosis / Notes */}
-      <text x={mx(24)} y="432" textAnchor={startAnchor} fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.notesLabel')}</text>
+      <text x={mx(24)} y="432" fill="#374151" fontSize="12" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.notesLabel')}</text>
       <rect x={mxRect(20, 350)} y="438" width="350" height="72" rx="10" fill="white" stroke="#e2e8f0" strokeWidth="1.5" />
-      <text x={mx(36)} y="460" textAnchor={startAnchor} fill="#9ca3af" fontSize="13" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.notesPlaceholderLine1')}</text>
-      <text x={mx(36)} y="478" textAnchor={startAnchor} fill="#9ca3af" fontSize="13" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.notesPlaceholderLine2')}</text>
+      <text x={mx(36)} y="460" fill="#9ca3af" fontSize="13" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.notesPlaceholderLine1')}</text>
+      <text x={mx(36)} y="478" fill="#9ca3af" fontSize="13" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.notesPlaceholderLine2')}</text>
 
       {/* Tip box */}
       <rect x={mxRect(20, 350)} y="522" width="350" height="50" rx="10" fill="#faf5ff" stroke="#ddd6fe" strokeWidth="1" />
-      <text x={mx(36)} y="543" textAnchor={startAnchor} fill="#7c3aed" fontSize="11" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.tipTitle')}</text>
-      <text x={mx(36)} y="559" textAnchor={startAnchor} fill="#6b21a8" fontSize="11" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.tipBody')}</text>
+      <text x={mx(36)} y="543" fill="#7c3aed" fontSize="11" fontWeight="600" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.tipTitle')}</text>
+      <text x={mx(36)} y="559" fill="#6b21a8" fontSize="11" fontFamily="Inter, sans-serif">{t('screenshotMockups.parentSetupScreenshot.tipBody')}</text>
 
       {/* Next button */}
       <rect x={mxRect(20, 350)} y="586" width="350" height="48" rx="12" fill="url(#parentSetupGrad)" />

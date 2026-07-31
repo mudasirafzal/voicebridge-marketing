@@ -7,7 +7,6 @@ export default function AlertsScreenshot() {
   const rtl = i18n.language === 'ar'
   const mx = (x: number) => (rtl ? W - x : x)
   const mxRect = (x: number, w: number) => (rtl ? W - x - w : x)
-  const startAnchor = rtl ? 'end' : undefined
 
   const alerts = [
     { emoji: '💧', child: t('screenshotMockups.alertsScreenshot.alert1Child'), message: t('screenshotMockups.alertsScreenshot.alert1Message'), time: t('screenshotMockups.alertsScreenshot.alert1Time'), acked: false },
@@ -44,9 +43,9 @@ export default function AlertsScreenshot() {
           <text x={mx(36)} y={111 + i * 100} textAnchor="middle" fontSize="18" fontFamily="serif">{alert.emoji}</text>
 
           {/* Text */}
-          <text x={mx(64)} y={93 + i * 100} textAnchor={startAnchor} fill="#1E293B" fontSize="9" fontWeight="700" fontFamily="Inter, sans-serif">{t('screenshotMockups.alertsScreenshot.tappedCard', { child: alert.child })}</text>
-          <text x={mx(64)} y={107 + i * 100} textAnchor={startAnchor} fill="#334155" fontSize="10" fontWeight="600" fontFamily="Inter, sans-serif">"{alert.message}"</text>
-          <text x={mx(64)} y={120 + i * 100} textAnchor={startAnchor} fill="#94A3B8" fontSize="7" fontFamily="Inter, sans-serif">{alert.time}</text>
+          <text x={mx(64)} y={93 + i * 100} fill="#1E293B" fontSize="9" fontWeight="700" fontFamily="Inter, sans-serif">{t('screenshotMockups.alertsScreenshot.tappedCard', { child: alert.child })}</text>
+          <text x={mx(64)} y={107 + i * 100} fill="#334155" fontSize="10" fontWeight="600" fontFamily="Inter, sans-serif">"{alert.message}"</text>
+          <text x={mx(64)} y={120 + i * 100} fill="#94A3B8" fontSize="7" fontFamily="Inter, sans-serif">{alert.time}</text>
 
           {/* Acknowledge button or badge */}
           {!alert.acked ? (
