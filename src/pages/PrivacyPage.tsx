@@ -81,7 +81,7 @@ export default function PrivacyPage() {
             <p className="text-sm font-semibold text-slate-700 mb-1">{t('privacyPage.contact.title')}</p>
             <p className="text-sm text-slate-500 mb-4">{t('privacyPage.contact.description')}</p>
             <a
-              href="mailto:privacy@voicebridge.app"
+              href="mailto:info@mstechlabs.com"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-violet-600 text-white font-bold rounded-xl text-sm hover:bg-violet-700 transition-colors"
             >
               {t('privacyPage.contact.cta')}
