@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
-import { Check } from 'lucide-react'
+import { Check, Minus } from 'lucide-react'
 import SEO from '../components/SEO'
 
 type Plan = {
@@ -10,6 +10,9 @@ type Plan = {
   period: string
   description: string
   features: string[]
+  /** Drawbacks. Rendered muted with a dash, never a tick — a limitation with a
+   *  green check next to it reads as a benefit. */
+  limitations?: string[]
   cta: string
   note: string
 }
@@ -77,6 +80,12 @@ export default function PricingPage() {
                     <li key={feature} className="flex items-start gap-2.5 text-sm text-slate-700">
                       <Check className={`w-4 h-4 mt-0.5 flex-shrink-0 ${highlight ? 'text-violet-600' : 'text-emerald-500'}`} strokeWidth={3} />
                       {feature}
+                    </li>
+                  ))}
+                  {plan.limitations?.map((limitation) => (
+                    <li key={limitation} className="flex items-start gap-2.5 text-sm text-slate-400">
+                      <Minus className="w-4 h-4 mt-0.5 flex-shrink-0 text-slate-300" strokeWidth={3} />
+                      {limitation}
                     </li>
                   ))}
                 </ul>

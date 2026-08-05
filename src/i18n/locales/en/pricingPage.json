@@ -1,12 +1,12 @@
 {
   "seo": {
     "title": "Pricing | VoiceBridge",
-    "description": "VoiceBridge is free for families. See what's included, and the optional one-time fee for instant account approval."
+    "description": "VoiceBridge is free for families. See what is included, and the one-time fee for instant activation and full features."
   },
   "hero": {
     "badge": "Pricing",
     "title": "Simple, honest pricing",
-    "intro": "VoiceBridge's core features are free for every family. There's exactly one optional paid service — instant account approval."
+    "intro": "The core communication features are free for every family. A single one-time fee activates your account instantly and unlocks the full feature set."
   },
   "plans": {
     "free": {
@@ -14,17 +14,20 @@
       "title": "Free",
       "price": "₹0",
       "period": "forever",
-      "description": "Everything a family needs to give their child a voice.",
+      "description": "Core communication features, free forever.",
       "features": [
         "Personalised communication board with visual cards",
         "Text-to-speech in English, Urdu & Arabic",
         "Real-time caregiver alerts (push, web, in-app)",
-        "Multiple child profiles per account",
         "Communication history & activity log",
         "Mobile app (iOS & Android) + web dashboard"
       ],
       "cta": "Get started free",
-      "note": "New accounts are reviewed and approved by our team, and activation can take a while. Want to start straight away? A one-time fee unlocks instant access and full features."
+      "note": "New accounts are reviewed and approved by our team, and activation can take a while. Want to start straight away? A one-time fee unlocks instant access and full features.",
+      "limitations": [
+        "Needs manual activation by our team",
+        "Limited features"
+      ]
     },
     "instant": {
       "badge": "Recommended",
@@ -33,9 +36,12 @@
       "period": "one-time",
       "description": "Skip the review queue and start using VoiceBridge the moment you register.",
       "features": [
-        "Everything in the Free plan",
-        "Account approved automatically, right after payment",
-        "No waiting for manual admin review",
+        "Everything in Basic",
+        "Full feature set unlocked",
+        "Multiple child profiles per account",
+        "Advanced features",
+        "Instant activation, right after payment",
+        "No waiting for manual review",
         "One-time payment — not a subscription"
       ],
       "cta": "Available after registration",
@@ -48,11 +54,11 @@
     "items": [
       {
         "question": "Is VoiceBridge really free?",
-        "answer": "Yes. Every core feature — the communication board, alerts, multiple profiles, and the mobile app — is free to use. The only paid option is a one-time ₹499 fee to skip manual account approval."
+        "answer": "Yes. The core communication features — the board, alerts and the mobile app — are free to use. Some features are reserved for accounts on the one-time ₹499 Instant Access fee, which also activates your account immediately instead of waiting for manual approval."
       },
       {
         "question": "What happens if I don't pay the ₹499 fee?",
-        "answer": "Nothing changes about the app itself — your account waits for an administrator to review and approve it. Review times vary, so if you'd rather not wait, the one-time ₹499 fee activates your account immediately."
+        "answer": "Your account waits for an administrator to review and activate it, and you stay on the Basic feature set. The one-time ₹499 fee activates the account straight away and unlocks the full features."
       },
       {
         "question": "Will there be paid subscriptions in future?",
