@@ -78,7 +78,7 @@ export default function RefundsPage() {
             <p className="text-sm font-semibold text-slate-700 mb-1">{t('refundsPage.contact.title')}</p>
             <p className="text-sm text-slate-500 mb-4">{t('refundsPage.contact.description')}</p>
             <a
-              href="mailto:support@voicebridge.app"
+              href="mailto:info@mstechlabs.com"
               className="inline-flex items-center gap-2 px-5 py-2.5 bg-violet-600 text-white font-bold rounded-xl text-sm hover:bg-violet-700 transition-colors"
             >
               {t('refundsPage.contact.cta')}

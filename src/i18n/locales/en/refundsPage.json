@@ -46,7 +46,7 @@
       "content": [
         {
           "subtitle": "Contact support",
-          "text": "Email support@voicebridge.app with your registered email address and the approximate date of payment. We aim to respond within 24 hours and process approved refunds within 5–7 business days to the original payment method via our payment processor, Cashfree."
+          "text": "Email info@mstechlabs.com with your registered email address and the approximate date of payment. We aim to respond within 24 hours and process approved refunds within 5–7 business days to the original payment method via our payment processor, Cashfree."
         }
       ]
     },
@@ -59,7 +59,7 @@
         },
         {
           "subtitle": "Closing your account",
-          "text": "You can stop using VoiceBridge and request account deletion at any time by contacting support@voicebridge.app. This does not retroactively entitle you to a refund of the instant-approval fee outside the eligibility window described above."
+          "text": "You can stop using VoiceBridge and request account deletion at any time by contacting info@mstechlabs.com. This does not retroactively entitle you to a refund of the instant-approval fee outside the eligibility window described above."
         }
       ]
     }
@@ -67,6 +67,6 @@
   "contact": {
     "title": "Questions about a payment?",
     "description": "We're happy to help with any billing or refund question.",
-    "cta": "Email support@voicebridge.app"
+    "cta": "Email info@mstechlabs.com"
   }
 }
