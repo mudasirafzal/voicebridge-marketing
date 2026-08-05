@@ -10,7 +10,7 @@
   },
   "plans": {
     "free": {
-      "badge": "Most families",
+      "badge": "Basic",
       "title": "Free",
       "price": "₹0",
       "period": "forever",
@@ -27,7 +27,7 @@
       "note": "New accounts are reviewed and approved by our team, and activation can take a while. Want to start straight away? A one-time fee unlocks instant access and full features."
     },
     "instant": {
-      "badge": "Optional",
+      "badge": "Recommended",
       "title": "Instant Access",
       "price": "₹499",
       "period": "one-time",
