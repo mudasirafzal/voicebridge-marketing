@@ -24,7 +24,7 @@
         "Mobile app (iOS & Android) + web dashboard"
       ],
       "cta": "Get started free",
-      "note": "New accounts are reviewed and approved by our team — this usually takes up to 24 hours."
+      "note": "New accounts are reviewed and approved by our team, and activation can take a while. Want to start straight away? A one-time fee unlocks instant access."
     },
     "instant": {
       "badge": "Optional",
@@ -52,7 +52,7 @@
       },
       {
         "question": "What happens if I don't pay the ₹499 fee?",
-        "answer": "Nothing changes about the app itself — your account simply waits for an administrator to review and approve it, which typically happens within 24 hours."
+        "answer": "Nothing changes about the app itself — your account waits for an administrator to review and approve it. Review times vary, so if you'd rather not wait, the one-time ₹499 fee activates your account immediately."
       },
       {
         "question": "Will there be paid subscriptions in future?",

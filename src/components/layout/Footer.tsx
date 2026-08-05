@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { MessageCircle } from 'lucide-react'
+import { MessageCircle, Instagram } from 'lucide-react'
 import AppCTAButtons from '../ui/AppCTAButtons'
 
 export default function Footer() {
@@ -36,6 +36,15 @@ export default function Footer() {
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs mb-6">
               {t('footer.tagline')}
             </p>
+            <a
+              href="https://www.instagram.com/voice_bridgeapp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t('footer.followInstagram')}
+              className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-slate-800 text-slate-400 hover:bg-gradient-to-br hover:from-violet-600 hover:to-pink-500 hover:text-white transition-all"
+            >
+              <Instagram className="w-5 h-5" />
+            </a>
           </div>
 
           {/* Links columns */}
