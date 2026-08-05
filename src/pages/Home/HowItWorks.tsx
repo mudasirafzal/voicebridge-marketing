@@ -29,7 +29,7 @@ function StepCard({ step, index }: { step: typeof stepMeta[0] & { title: string;
       initial={{ opacity: 0, x: isEven ? 60 : -60 }}
       animate={isInView ? { opacity: 1, x: 0 } : {}}
       transition={{ duration: 0.7, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
-      className={`flex items-start gap-6 ${isEven ? 'lg:flex-row-reverse' : ''}`}
+      className="flex items-start gap-6"
     >
       <div className="flex flex-col items-center shrink-0">
         <div className={`w-16 h-16 rounded-2xl ${colors.bg} text-white flex flex-col items-center justify-center shadow-lg`}>
@@ -37,7 +37,7 @@ function StepCard({ step, index }: { step: typeof stepMeta[0] & { title: string;
         </div>
         <div className={`text-xs font-bold ${colors.text} mt-2`}>{step.number}</div>
       </div>
-      <div className={`flex-1 bg-white rounded-2xl p-6 border ${colors.border} shadow-sm hover:shadow-md transition-shadow ${isEven ? 'lg:text-right' : ''}`}>
+      <div className={`flex-1 bg-white rounded-2xl p-6 border ${colors.border} shadow-sm hover:shadow-md transition-shadow`}>
         <h3 className="text-lg font-bold text-slate-900 mb-2">{step.title}</h3>
         <p className="text-slate-600 leading-relaxed">{step.description}</p>
       </div>
@@ -69,7 +69,7 @@ export default function HowItWorks() {
 
         <div className="relative space-y-8">
           {/* Connecting line */}
-          <div className="absolute left-8 top-16 bottom-16 w-0.5 bg-gradient-to-b from-violet-600 via-pink-500 to-emerald-500 opacity-30 hidden lg:block" />
+          <div className="absolute left-8 top-16 bottom-16 w-0.5 bg-gradient-to-b from-violet-600 via-pink-500 to-emerald-500 opacity-30 hidden lg:block -z-10" />
           {steps.map((step, i) => (
             <StepCard key={step.number} step={step} index={i} />
           ))}

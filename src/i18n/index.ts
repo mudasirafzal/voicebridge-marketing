@@ -20,6 +20,8 @@ import enDocsPage from './locales/en/docsPage.json'
 import enContactPage from './locales/en/contactPage.json'
 import enPrivacyPage from './locales/en/privacyPage.json'
 import enTermsPage from './locales/en/termsPage.json'
+import enRefundsPage from './locales/en/refundsPage.json'
+import enPricingPage from './locales/en/pricingPage.json'
 import enScreenshotMockups from './locales/en/screenshotMockups.json'
 
 import arCommon from './locales/ar/common.json'
@@ -41,6 +43,8 @@ import arDocsPage from './locales/ar/docsPage.json'
 import arContactPage from './locales/ar/contactPage.json'
 import arPrivacyPage from './locales/ar/privacyPage.json'
 import arTermsPage from './locales/ar/termsPage.json'
+import arRefundsPage from './locales/ar/refundsPage.json'
+import arPricingPage from './locales/ar/pricingPage.json'
 import arScreenshotMockups from './locales/ar/screenshotMockups.json'
 
 export const RTL_LANGUAGES = ['ar']
@@ -82,6 +86,8 @@ const en = {
   contactPage: enContactPage,
   privacyPage: enPrivacyPage,
   termsPage: enTermsPage,
+  refundsPage: enRefundsPage,
+  pricingPage: enPricingPage,
   screenshotMockups: enScreenshotMockups,
 }
 
@@ -105,6 +111,8 @@ const ar = {
   contactPage: arContactPage,
   privacyPage: arPrivacyPage,
   termsPage: arTermsPage,
+  refundsPage: arRefundsPage,
+  pricingPage: arPricingPage,
   screenshotMockups: arScreenshotMockups,
 }
 

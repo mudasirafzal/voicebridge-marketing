@@ -15,6 +15,7 @@ export default function Navbar() {
     { to: '/', label: t('nav.home') },
     { to: '/features', label: t('nav.features') },
     { to: '/how-it-works', label: t('nav.howItWorks') },
+    { to: '/pricing', label: t('nav.pricing') },
     { to: '/docs', label: t('nav.docs') },
     { to: '/about', label: t('nav.about') },
     { to: '/contact', label: t('nav.contact') },

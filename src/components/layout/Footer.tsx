@@ -9,11 +9,13 @@ export default function Footer() {
   const footerLinks = {
     [t('footer.product')]: [
       { label: t('footer.howItWorks'), to: '/how-it-works' },
+      { label: t('footer.pricing'), to: '/pricing' },
     ],
     [t('footer.company')]: [
       { label: t('footer.contact'), to: '/contact' },
       { label: t('footer.privacyPolicy'), to: '/privacy' },
       { label: t('footer.termsOfService'), to: '/terms' },
+      { label: t('footer.refunds'), to: '/refunds' },
     ],
   }
 

@@ -12,6 +12,8 @@ import ContactPage from './pages/ContactPage'
 import WhatsAppButton from './components/ui/WhatsAppButton'
 import PrivacyPage from './pages/PrivacyPage'
 import TermsPage from './pages/TermsPage'
+import RefundsPage from './pages/RefundsPage'
+import PricingPage from './pages/PricingPage'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -37,6 +39,8 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
+          <Route path="/refunds" element={<RefundsPage />} />
+          <Route path="/pricing" element={<PricingPage />} />
         </Routes>
       </main>
       <Footer />

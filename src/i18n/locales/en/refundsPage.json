@@ -1,0 +1,72 @@
+{
+  "seo": {
+    "title": "Refunds & Cancellations | VoiceBridge",
+    "description": "VoiceBridge's refund and cancellation policy for the one-time instant account approval fee."
+  },
+  "hero": {
+    "badge": "Policy",
+    "title": "Refunds & Cancellations",
+    "effectiveDate": "Effective date: 1 August 2026",
+    "intro": "VoiceBridge's core features are free for families. This page explains the refund and cancellation policy for the one optional paid service we currently offer."
+  },
+  "summary": {
+    "title": "Quick summary",
+    "items": [
+      "Core VoiceBridge features (communication board, alerts, profiles) are free — nothing to refund there.",
+      "The only paid service is a one-time ₹1,000 fee for instant account approval.",
+      "This fee is refundable within 7 days if you're not satisfied, as long as the account hasn't been actively used.",
+      "There is no recurring subscription today, so there's nothing to cancel — future subscription plans will have their own terms."
+    ]
+  },
+  "sections": {
+    "whatIsPaid": {
+      "title": "What is a paid service today",
+      "content": [
+        {
+          "subtitle": "Instant Account Approval",
+          "text": "New accounts normally wait for a VoiceBridge administrator to manually review and approve them. To skip that wait, we offer an optional one-time payment of ₹1,000 (INR) that approves your account automatically as soon as the payment is confirmed. This is the only paid product or service on VoiceBridge at this time — every other feature of the app is free."
+        }
+      ]
+    },
+    "refundEligibility": {
+      "title": "Refund eligibility",
+      "content": [
+        {
+          "subtitle": "Eligible for a refund",
+          "text": "If your payment succeeded but your account was not approved due to a technical error on our end, or if you request a refund within 7 days of payment and have not meaningfully used the paid access (e.g. adding child profiles, pairing devices, or using the communication board), we will refund the ₹1,000 fee in full."
+        },
+        {
+          "subtitle": "Not eligible for a refund",
+          "text": "Refund requests made after 7 days, or after the account has been actively used to manage profiles or communication boards, are handled on a case-by-case basis and are not guaranteed."
+        }
+      ]
+    },
+    "howToRequest": {
+      "title": "How to request a refund",
+      "content": [
+        {
+          "subtitle": "Contact support",
+          "text": "Email support@voicebridge.app with your registered email address and the approximate date of payment. We aim to respond within 24 hours and process approved refunds within 5–7 business days to the original payment method via our payment processor, Cashfree."
+        }
+      ]
+    },
+    "cancellations": {
+      "title": "Cancellations",
+      "content": [
+        {
+          "subtitle": "No recurring billing today",
+          "text": "VoiceBridge does not currently charge any recurring or subscription fees, so there is nothing to cancel. If we introduce subscription plans in the future, this page will be updated with clear cancellation terms before those plans launch."
+        },
+        {
+          "subtitle": "Closing your account",
+          "text": "You can stop using VoiceBridge and request account deletion at any time by contacting support@voicebridge.app. This does not retroactively entitle you to a refund of the instant-approval fee outside the eligibility window described above."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Questions about a payment?",
+    "description": "We're happy to help with any billing or refund question.",
+    "cta": "Email support@voicebridge.app"
+  }
+}

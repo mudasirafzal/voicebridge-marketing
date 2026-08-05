@@ -3,6 +3,7 @@
     "home": "الرئيسية",
     "features": "المميزات",
     "howItWorks": "كيف يعمل",
+    "pricing": "الأسعار",
     "docs": "الدليل",
     "about": "من نحن",
     "contact": "تواصل معنا"
@@ -24,10 +25,12 @@
     "product": "المنتج",
     "company": "الشركة",
     "howItWorks": "كيف يعمل",
+    "pricing": "الأسعار",
     "screenshots": "لقطات الشاشة",
     "contact": "تواصل معنا",
     "privacyPolicy": "سياسة الخصوصية",
     "termsOfService": "شروط الخدمة",
+    "refunds": "الاسترداد والإلغاء",
     "copyright": "© 2026 VoiceBridge. صُنع بـ ❤️ من أجل أسر التوحد."
   }
 }

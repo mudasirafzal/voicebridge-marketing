@@ -3,6 +3,7 @@
     "home": "Home",
     "features": "Features",
     "howItWorks": "How it Works",
+    "pricing": "Pricing",
     "docs": "Docs",
     "about": "About",
     "contact": "Contact"
@@ -24,10 +25,12 @@
     "product": "Product",
     "company": "Company",
     "howItWorks": "How it Works",
+    "pricing": "Pricing",
     "screenshots": "Screenshots",
     "contact": "Contact",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
+    "refunds": "Refunds & Cancellations",
     "copyright": "© 2026 VoiceBridge. Built with ❤️ for autism families."
   }
 }
