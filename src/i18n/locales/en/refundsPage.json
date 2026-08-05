@@ -13,7 +13,7 @@
     "title": "Quick summary",
     "items": [
       "Core VoiceBridge features (communication board, alerts, profiles) are free — nothing to refund there.",
-      "The only paid service is a one-time ₹1,000 fee for instant account approval.",
+      "The only paid service is a one-time ₹499 fee for instant account approval.",
       "This fee is refundable within 7 days if you're not satisfied, as long as the account hasn't been actively used.",
       "There is no recurring subscription today, so there's nothing to cancel — future subscription plans will have their own terms."
     ]
@@ -24,7 +24,7 @@
       "content": [
         {
           "subtitle": "Instant Account Approval",
-          "text": "New accounts normally wait for a VoiceBridge administrator to manually review and approve them. To skip that wait, we offer an optional one-time payment of ₹1,000 (INR) that approves your account automatically as soon as the payment is confirmed. This is the only paid product or service on VoiceBridge at this time — every other feature of the app is free."
+          "text": "New accounts normally wait for a VoiceBridge administrator to manually review and approve them. To skip that wait, we offer an optional one-time payment of ₹499 (INR) that approves your account automatically as soon as the payment is confirmed. This is the only paid product or service on VoiceBridge at this time — every other feature of the app is free."
         }
       ]
     },
@@ -33,7 +33,7 @@
       "content": [
         {
           "subtitle": "Eligible for a refund",
-          "text": "If your payment succeeded but your account was not approved due to a technical error on our end, or if you request a refund within 7 days of payment and have not meaningfully used the paid access (e.g. adding child profiles, pairing devices, or using the communication board), we will refund the ₹1,000 fee in full."
+          "text": "If your payment succeeded but your account was not approved due to a technical error on our end, or if you request a refund within 7 days of payment and have not meaningfully used the paid access (e.g. adding child profiles, pairing devices, or using the communication board), we will refund the ₹499 fee in full."
         },
         {
           "subtitle": "Not eligible for a refund",

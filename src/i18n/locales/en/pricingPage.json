@@ -29,7 +29,7 @@
     "instant": {
       "badge": "Optional",
       "title": "Instant Access",
-      "price": "₹1,000",
+      "price": "₹499",
       "period": "one-time",
       "description": "Skip the review queue and start using VoiceBridge the moment you register.",
       "features": [
@@ -48,10 +48,10 @@
     "items": [
       {
         "question": "Is VoiceBridge really free?",
-        "answer": "Yes. Every core feature — the communication board, alerts, multiple profiles, and the mobile app — is free to use. The only paid option is a one-time ₹1,000 fee to skip manual account approval."
+        "answer": "Yes. Every core feature — the communication board, alerts, multiple profiles, and the mobile app — is free to use. The only paid option is a one-time ₹499 fee to skip manual account approval."
       },
       {
-        "question": "What happens if I don't pay the ₹1,000 fee?",
+        "question": "What happens if I don't pay the ₹499 fee?",
         "answer": "Nothing changes about the app itself — your account simply waits for an administrator to review and approve it, which typically happens within 24 hours."
       },
       {
