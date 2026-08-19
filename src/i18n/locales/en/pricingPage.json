@@ -1,47 +1,47 @@
 {
   "seo": {
     "title": "Pricing | VoiceBridge",
-    "description": "VoiceBridge is free for families. See what is included, and the one-time fee for instant activation and full features."
+    "description": "VoiceBridge gives every account a free 3-day trial with full access. See what's included, and the one-time fee that keeps your account active afterward."
   },
   "hero": {
     "badge": "Pricing",
     "title": "Simple, honest pricing",
-    "intro": "The core communication features are free for every family. A single one-time fee activates your account instantly and unlocks the full feature set."
+    "intro": "Every account starts with 3 days of full access, completely free — no card required. A single one-time fee then keeps things going and unlocks unlimited profiles."
   },
   "plans": {
     "free": {
-      "badge": "Basic",
-      "title": "Free",
+      "badge": "Free Trial",
+      "title": "Free Trial",
       "price": "₹0",
-      "period": "to start",
-      "description": "Core communication features at no cost.",
+      "period": "for 3 days",
+      "description": "Full access to try VoiceBridge, no card required.",
       "features": [
         "Personalised communication board with visual cards",
         "Text-to-speech in English, Urdu & Arabic",
         "Real-time caregiver alerts (push, web, in-app)",
         "Communication history & activity log",
-        "Mobile app (iOS & Android) + web dashboard"
+        "Mobile app (iOS & Android) + web dashboard",
+        "Instant access — starts the moment you register"
       ],
       "cta": "Get started free",
-      "note": "New accounts are reviewed and approved by our team, and activation can take a while. Want to start straight away? A one-time fee unlocks instant access and full features.",
+      "note": "No credit card needed to start. After 3 days, upgrade with the one-time fee below to keep your account — and your child's board — active.",
       "limitations": [
-        "Needs manual activation by our team",
-        "Limited features"
+        "One profile",
+        "Access pauses after 3 days until you upgrade"
       ]
     },
     "instant": {
       "badge": "Recommended",
-      "title": "Instant Access",
+      "title": "Full Access",
       "price": "₹499",
       "period": "one-time",
-      "description": "Skip the review queue and start using VoiceBridge the moment you register.",
+      "description": "Keep your account active for good, with unlimited profiles.",
       "features": [
-        "Everything in Basic",
-        "Full feature set unlocked",
-        "Multiple child profiles per account",
+        "Everything in the Free Trial",
+        "Access never expires",
+        "Unlimited child profiles per account",
         "Advanced features",
-        "Instant activation, right after payment",
-        "No waiting for manual review",
+        "Pay any time — during your trial or after it ends",
         "One-time payment — not a subscription"
       ],
       "cta": "Available after registration",
@@ -54,11 +54,11 @@
     "items": [
       {
         "question": "Is VoiceBridge really free?",
-        "answer": "Yes. The core communication features — the board, alerts and the mobile app — are free to use. Some features are reserved for accounts on the one-time ₹499 Instant Access fee, which also activates your account immediately instead of waiting for manual approval."
+        "answer": "Yes — every account gets 3 days of full access at no cost, no card required. After that, a one-time ₹499 payment keeps your account active and unlocks unlimited profiles."
       },
       {
-        "question": "What happens if I don't pay the ₹499 fee?",
-        "answer": "Your account waits for an administrator to review and activate it, and you stay on the Basic feature set. The one-time ₹499 fee activates the account straight away and unlocks the full features."
+        "question": "What happens when my 3-day trial ends?",
+        "answer": "Access pauses — including your child's communication board — until you upgrade. Nothing is charged automatically. You can pay any time, before or after your trial ends, and it's a one-time fee, not a subscription."
       },
       {
         "question": "Will there be paid subscriptions in future?",
