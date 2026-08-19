@@ -1,12 +1,12 @@
 {
   "seo": {
     "title": "Pricing | VoiceBridge",
-    "description": "VoiceBridge gives every account a free 3-day trial with full access. See what's included, and the one-time fee that keeps your account active afterward."
+    "description": "VoiceBridge gives every account a free 3-day trial with limited access. See what's included, and the one-time fee that unlocks full access afterward."
   },
   "hero": {
     "badge": "Pricing",
     "title": "Simple, honest pricing",
-    "intro": "Every account starts with 3 days of full access, completely free — no card required. A single one-time fee then keeps things going and unlocks unlimited profiles."
+    "intro": "Every account starts with 3 days of limited access, completely free — no card required. A single one-time fee then unlocks full access, unlimited profiles, and advanced features."
   },
   "plans": {
     "free": {
@@ -14,14 +14,14 @@
       "title": "Free Trial",
       "price": "₹0",
       "period": "for 3 days",
-      "description": "Full access to try VoiceBridge, no card required.",
+      "description": "Limited access to try VoiceBridge, no card required.",
       "features": [
         "Personalised communication board with visual cards",
         "Text-to-speech in English, Urdu & Arabic",
         "Real-time caregiver alerts (push, web, in-app)",
         "Communication history & activity log",
         "Mobile app (iOS & Android) + web dashboard",
-        "Instant access — starts the moment you register"
+        "Limited access for free trial — starts the moment you register"
       ],
       "cta": "Get started free",
       "note": "No credit card needed to start. After 3 days, upgrade with the one-time fee below to keep your account — and your child's board — active.",
@@ -35,7 +35,7 @@
       "title": "Full Access",
       "price": "₹499",
       "period": "one-time",
-      "description": "Keep your account active for good, with unlimited profiles.",
+      "description": "Unlock full access for good, with unlimited profiles and advanced features.",
       "features": [
         "Everything in the Free Trial",
         "Access never expires",
@@ -54,7 +54,7 @@
     "items": [
       {
         "question": "Is VoiceBridge really free?",
-        "answer": "Yes — every account gets 3 days of full access at no cost, no card required. After that, a one-time ₹499 payment keeps your account active and unlocks unlimited profiles."
+        "answer": "Yes — every account gets 3 days of limited access at no cost, no card required. After that, a one-time ₹499 payment unlocks full access, unlimited profiles, and advanced features."
       },
       {
         "question": "What happens when my 3-day trial ends?",
