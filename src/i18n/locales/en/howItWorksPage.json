@@ -1,13 +1,13 @@
 {
   "seo": {
     "title": "How It Works",
-    "description": "Learn how VoiceBridge works — from setup to daily use. See step-by-step flows for parents, children, and therapy centers."
+    "description": "Learn how VoiceBridge Pro works — from setup to daily use. See step-by-step flows for parents, children, and therapy centers."
   },
   "hero": {
     "titlePart1": "From Setup to",
     "titleHighlight": "First Communication",
     "titlePart2": "in Minutes",
-    "description": "VoiceBridge is designed to get out of the way and let communication happen naturally. Here's how the whole system works."
+    "description": "VoiceBridge Pro is designed to get out of the way and let communication happen naturally. Here's how the whole system works."
   },
   "stepsSection": {
     "heading": "Step-by-Step Guide"
@@ -60,7 +60,7 @@
   },
   "journeysSection": {
     "heading": "User Journeys",
-    "description": "How each person in the VoiceBridge ecosystem experiences the app."
+    "description": "How each person in the VoiceBridge Pro ecosystem experiences the app."
   },
   "journeys": {
     "parent": {
@@ -77,7 +77,7 @@
     "child": {
       "persona": "👧 Child (Non-verbal)",
       "steps": [
-        "Open VoiceBridge on their device",
+        "Open VoiceBridge Pro on their device",
         "See their personal communication board",
         "Browse and tap the card they need",
         "Hear the phrase spoken aloud",

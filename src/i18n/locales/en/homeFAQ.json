@@ -4,20 +4,20 @@
   "subtitle": "Everything you need to know before getting started.",
   "items": {
     "whatIsVoiceBridge": {
-      "q": "What is VoiceBridge?",
-      "a": "VoiceBridge is an Augmentative and Alternative Communication (AAC) app designed for non-verbal people of determination. It provides a visual card-based interface that lets individuals tap cards to express their needs, while parents and caregivers receive instant spoken alerts and push notifications."
+      "q": "What is VoiceBridge Pro?",
+      "a": "VoiceBridge Pro is an Augmentative and Alternative Communication (AAC) app designed for non-verbal people of determination. It provides a visual card-based interface that lets individuals tap cards to express their needs, while parents and caregivers receive instant spoken alerts and push notifications."
     },
     "whoIsItFor": {
-      "q": "Who is VoiceBridge designed for?",
-      "a": "VoiceBridge is designed for non-verbal or minimally verbal people of determination of all ages, their parents, caregivers, speech-language pathologists, special education teachers, and therapy centers."
+      "q": "Who is VoiceBridge Pro designed for?",
+      "a": "VoiceBridge Pro is designed for non-verbal or minimally verbal people of determination of all ages, their parents, caregivers, speech-language pathologists, special education teachers, and therapy centers."
     },
     "availableOnMobile": {
-      "q": "Is VoiceBridge available on mobile?",
-      "a": "Yes. VoiceBridge has a dedicated mobile app for iOS and Android — ideal for setting up a tablet as a communication board. The caregiver dashboard also works on any modern web browser with no installation needed."
+      "q": "Is VoiceBridge Pro available on mobile?",
+      "a": "Yes. VoiceBridge Pro has a dedicated mobile app for iOS and Android — ideal for setting up a tablet as a communication board. The caregiver dashboard also works on any modern web browser with no installation needed."
     },
     "languagesSupported": {
       "q": "What languages are supported?",
-      "a": "VoiceBridge fully supports English, Urdu, and Arabic — including card labels, text-to-speech in all three languages, and the full app interface. Urdu and Arabic speech uses authentic native pronunciation. More languages are planned based on community demand."
+      "a": "VoiceBridge Pro fully supports English, Urdu, and Arabic — including card labels, text-to-speech in all three languages, and the full app interface. Urdu and Arabic speech uses authentic native pronunciation. More languages are planned based on community demand."
     },
     "alertAcknowledgeSystem": {
       "q": "How does the alert and acknowledge system work?",
@@ -25,7 +25,7 @@
     },
     "voiceAndSpeakingStyle": {
       "q": "Can I choose the voice and speaking style?",
-      "a": "Yes. From Settings → Configurations, you can choose an English voice accent from those available on your device, and pick a speaking style preset: Natural, Child, Clear, or Expressive — each with tuned pitch and rate. For Urdu and Arabic, VoiceBridge automatically uses high-quality native-accent TTS if no native voice is installed."
+      "a": "Yes. From Settings → Configurations, you can choose an English voice accent from those available on your device, and pick a speaking style preset: Natural, Child, Clear, or Expressive — each with tuned pitch and rate. For Urdu and Arabic, VoiceBridge Pro automatically uses high-quality native-accent TTS if no native voice is installed."
     },
     "customCards": {
       "q": "Can I add custom communication cards?",
@@ -37,7 +37,7 @@
     },
     "dataSecurity": {
       "q": "Is the data secure?",
-      "a": "Absolutely. VoiceBridge uses industry-standard encryption for all data in transit and at rest. We never sell user data or use communication history for advertising. Your family's data belongs to you and can be deleted at any time."
+      "a": "Absolutely. VoiceBridge Pro uses industry-standard encryption for all data in transit and at rest. We never sell user data or use communication history for advertising. Your family's data belongs to you and can be deleted at any time."
     },
     "gettingStarted": {
       "q": "How do I get started?",

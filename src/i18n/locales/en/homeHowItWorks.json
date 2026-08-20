@@ -5,7 +5,7 @@
   "steps": {
     "01": {
       "title": "Child Opens the Board",
-      "description": "The child opens VoiceBridge on any device. Their personalized communication board appears with large, colorful visual cards — each representing a common need or feeling."
+      "description": "The child opens VoiceBridge Pro on any device. Their personalized communication board appears with large, colorful visual cards — each representing a common need or feeling."
     },
     "02": {
       "title": "Card Speaks Aloud",

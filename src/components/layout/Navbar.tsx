@@ -45,7 +45,7 @@ export default function Navbar() {
               </div>
             </div>
             <span className="text-lg font-bold bg-gradient-to-r from-violet-600 via-pink-500 to-amber-400 bg-clip-text text-transparent">
-              VoiceBridge
+              VoiceBridge Pro
             </span>
           </Link>
 

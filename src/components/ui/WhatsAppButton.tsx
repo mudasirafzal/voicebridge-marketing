@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next'
 export default function WhatsAppButton() {
   const { t } = useTranslation()
   const phone = '918088823483'
-  const message = encodeURIComponent('Hi! I have a question about VoiceBridge.')
+  const message = encodeURIComponent('Hi! I have a question about VoiceBridge Pro.')
   const href = `https://wa.me/${phone}?text=${message}`
 
   return (

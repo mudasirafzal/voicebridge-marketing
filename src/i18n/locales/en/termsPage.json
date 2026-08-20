@@ -1,19 +1,19 @@
 {
   "seo": {
-    "title": "Terms of Service — VoiceBridge",
-    "description": "VoiceBridge Terms of Service. Read about permitted use, user content, subscriptions, and your rights as a VoiceBridge user."
+    "title": "Terms of Service — VoiceBridge Pro",
+    "description": "VoiceBridge Pro Terms of Service. Read about permitted use, user content, subscriptions, and your rights as a VoiceBridge Pro user."
   },
   "hero": {
     "badge": "📋 Terms of Service",
     "title": "Terms of Service",
     "effectiveDate": "Effective date: January 1, 2025",
-    "intro": "Please read these terms carefully before using VoiceBridge. They explain your rights and responsibilities as a user of our service."
+    "intro": "Please read these terms carefully before using VoiceBridge Pro. They explain your rights and responsibilities as a user of our service."
   },
   "summary": {
     "title": "Key Points",
     "points": [
       "Accounts must be created by adults (18+). Children use the board through a parent's or caregiver's account.",
-      "VoiceBridge is a communication support tool — it is not a medical device or clinical service.",
+      "VoiceBridge Pro is a communication support tool — it is not a medical device or clinical service.",
       "You own your content. We only use it to operate the service.",
       "You can cancel and export your data at any time."
     ]
@@ -23,10 +23,10 @@
       "title": "Acceptance of Terms",
       "content": [
         {
-          "text": "By creating a VoiceBridge account or using any part of the VoiceBridge service (the \"Service\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service."
+          "text": "By creating a VoiceBridge Pro account or using any part of the VoiceBridge Pro service (the \"Service\"), you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use the Service."
         },
         {
-          "text": "These Terms apply to all users of the Service, including parents, caregivers, and therapy professionals. If you are using VoiceBridge on behalf of an organization (such as a therapy center), you represent that you have authority to bind that organization to these Terms."
+          "text": "These Terms apply to all users of the Service, including parents, caregivers, and therapy professionals. If you are using VoiceBridge Pro on behalf of an organization (such as a therapy center), you represent that you have authority to bind that organization to these Terms."
         }
       ]
     },
@@ -34,10 +34,10 @@
       "title": "Description of the Service",
       "content": [
         {
-          "text": "VoiceBridge is an Augmentative and Alternative Communication (AAC) application that enables non-verbal individuals to communicate through visual cards. The Service includes a mobile board for communication users, a caregiver web and mobile interface for receiving real-time alerts, communication history logging, and profile management tools."
+          "text": "VoiceBridge Pro is an Augmentative and Alternative Communication (AAC) application that enables non-verbal individuals to communicate through visual cards. The Service includes a mobile board for communication users, a caregiver web and mobile interface for receiving real-time alerts, communication history logging, and profile management tools."
         },
         {
-          "text": "VoiceBridge is a communication support tool. It is not a medical device, clinical assessment tool, or substitute for professional speech-language pathology services. Always work with qualified professionals when designing a communication plan."
+          "text": "VoiceBridge Pro is a communication support tool. It is not a medical device, clinical assessment tool, or substitute for professional speech-language pathology services. Always work with qualified professionals when designing a communication plan."
         }
       ]
     },
@@ -46,7 +46,7 @@
       "content": [
         {
           "subtitle": "Adult Account Holders",
-          "text": "Accounts must be created and managed by individuals who are at least 18 years old. VoiceBridge does not offer accounts directly to minors."
+          "text": "Accounts must be created and managed by individuals who are at least 18 years old. VoiceBridge Pro does not offer accounts directly to minors."
         },
         {
           "subtitle": "Accurate Information",
@@ -63,7 +63,7 @@
       "content": [
         {
           "subtitle": "Personal & Professional Use",
-          "text": "VoiceBridge may be used by parents and caregivers for personal family communication support, and by therapy professionals for client management within their practice."
+          "text": "VoiceBridge Pro may be used by parents and caregivers for personal family communication support, and by therapy professionals for client management within their practice."
         },
         {
           "subtitle": "Prohibited Activities",
@@ -76,7 +76,7 @@
       "content": [
         {
           "subtitle": "Your Content",
-          "text": "You retain ownership of any content you upload to VoiceBridge, including profile photos, custom card images, and phrases. By uploading content, you grant VoiceBridge a limited license to store and display that content to you and the users you authorize."
+          "text": "You retain ownership of any content you upload to VoiceBridge Pro, including profile photos, custom card images, and phrases. By uploading content, you grant VoiceBridge Pro a limited license to store and display that content to you and the users you authorize."
         },
         {
           "subtitle": "Content Standards",
@@ -96,7 +96,7 @@
       "title": "Therapy Center Accounts",
       "content": [
         {
-          "text": "Therapy centers and professionals using VoiceBridge are responsible for obtaining any consents required by applicable law (including health privacy regulations) before linking client profiles to their account. VoiceBridge provides the technical platform; compliance with professional and legal obligations remains the responsibility of the therapy center."
+          "text": "Therapy centers and professionals using VoiceBridge Pro are responsible for obtaining any consents required by applicable law (including health privacy regulations) before linking client profiles to their account. VoiceBridge Pro provides the technical platform; compliance with professional and legal obligations remains the responsibility of the therapy center."
         }
       ]
     },
@@ -107,7 +107,7 @@
           "text": "We strive to provide a reliable service but cannot guarantee 100% uptime. The Service may be temporarily unavailable due to maintenance, updates, or events outside our control. We are not liable for losses arising from service interruptions."
         },
         {
-          "text": "VoiceBridge is an active product under ongoing development. Features may be added, changed, or discontinued. We will provide reasonable notice of significant changes that affect core functionality."
+          "text": "VoiceBridge Pro is an active product under ongoing development. Features may be added, changed, or discontinued. We will provide reasonable notice of significant changes that affect core functionality."
         }
       ]
     },
@@ -115,7 +115,7 @@
       "title": "Subscriptions & Payments",
       "content": [
         {
-          "text": "Certain features of VoiceBridge may require a paid subscription. Pricing, billing cycles, and cancellation terms are described at the point of purchase and on the relevant subscription page. Subscriptions auto-renew unless cancelled before the renewal date. Refunds are handled on a case-by-case basis — contact info@mstechlabs.com."
+          "text": "Certain features of VoiceBridge Pro may require a paid subscription. Pricing, billing cycles, and cancellation terms are described at the point of purchase and on the relevant subscription page. Subscriptions auto-renew unless cancelled before the renewal date. Refunds are handled on a case-by-case basis — contact info@mstechlabs.com."
         }
       ]
     },
@@ -123,7 +123,7 @@
       "title": "Intellectual Property",
       "content": [
         {
-          "text": "VoiceBridge and its pre-built card content, design, code, and trademarks are the property of VoiceBridge and its licensors. Nothing in these Terms transfers ownership of VoiceBridge intellectual property to you. You may not use our name, logo, or branding without prior written permission."
+          "text": "VoiceBridge Pro and its pre-built card content, design, code, and trademarks are the property of VoiceBridge Pro and its licensors. Nothing in these Terms transfers ownership of VoiceBridge Pro intellectual property to you. You may not use our name, logo, or branding without prior written permission."
         }
       ]
     },
@@ -131,10 +131,10 @@
       "title": "Disclaimers",
       "content": [
         {
-          "text": "The Service is provided \"as is\" without warranties of any kind, express or implied. VoiceBridge does not warrant that the Service will meet all of your requirements or that it will be error-free, uninterrupted, or completely secure."
+          "text": "The Service is provided \"as is\" without warranties of any kind, express or implied. VoiceBridge Pro does not warrant that the Service will meet all of your requirements or that it will be error-free, uninterrupted, or completely secure."
         },
         {
-          "text": "VoiceBridge is a communication support tool and is not a substitute for professional medical, therapeutic, or clinical advice. Decisions about an individual's communication plan should always involve qualified professionals."
+          "text": "VoiceBridge Pro is a communication support tool and is not a substitute for professional medical, therapeutic, or clinical advice. Decisions about an individual's communication plan should always involve qualified professionals."
         }
       ]
     },
@@ -142,7 +142,7 @@
       "title": "Limitation of Liability",
       "content": [
         {
-          "text": "To the maximum extent permitted by law, VoiceBridge shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of or inability to use the Service. Our total liability for any claim arising under these Terms shall not exceed the amount you paid to VoiceBridge in the 12 months prior to the claim."
+          "text": "To the maximum extent permitted by law, VoiceBridge Pro shall not be liable for any indirect, incidental, consequential, or punitive damages arising from your use of or inability to use the Service. Our total liability for any claim arising under these Terms shall not exceed the amount you paid to VoiceBridge Pro in the 12 months prior to the claim."
         }
       ]
     },

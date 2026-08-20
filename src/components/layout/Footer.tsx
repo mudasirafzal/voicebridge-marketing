@@ -30,7 +30,7 @@ export default function Footer() {
                 <MessageCircle className="w-4 h-4 text-white" strokeWidth={2.5} />
               </div>
               <span className="text-lg font-bold bg-gradient-to-r from-violet-400 via-pink-400 to-amber-300 bg-clip-text text-transparent">
-                VoiceBridge
+                VoiceBridge Pro
               </span>
             </Link>
             <p className="text-sm text-slate-400 leading-relaxed max-w-xs mb-6">

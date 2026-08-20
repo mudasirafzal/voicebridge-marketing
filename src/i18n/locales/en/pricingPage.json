@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "Pricing | VoiceBridge",
-    "description": "VoiceBridge gives every account a free 3-day trial with limited access. See what's included, and the one-time fee that unlocks full access afterward."
+    "title": "Pricing | VoiceBridge Pro",
+    "description": "VoiceBridge Pro gives every account a free 3-day trial with limited access. See what's included, and the one-time fee that unlocks full access afterward."
   },
   "hero": {
     "badge": "Pricing",
@@ -14,7 +14,7 @@
       "title": "Free Trial",
       "price": "₹0",
       "period": "for 3 days",
-      "description": "Limited access to try VoiceBridge, no card required.",
+      "description": "Limited access to try VoiceBridge Pro, no card required.",
       "features": [
         "Personalised communication board with visual cards",
         "Text-to-speech in English, Urdu & Arabic",
@@ -45,7 +45,7 @@
         "One-time payment — not a subscription"
       ],
       "cta": "Available after registration",
-      "note": "This fee also helps support VoiceBridge's ongoing development. See our Refunds & Cancellations policy for details."
+      "note": "This fee also helps support VoiceBridge Pro's ongoing development. See our Refunds & Cancellations policy for details."
     }
   },
   "refundsNote": "Need a refund?",
@@ -53,7 +53,7 @@
     "title": "Pricing questions",
     "items": [
       {
-        "question": "Is VoiceBridge really free?",
+        "question": "Is VoiceBridge Pro really free?",
         "answer": "Yes — every account gets 3 days of limited access at no cost, no card required. After that, a one-time ₹499 payment unlocks full access, unlimited profiles, and advanced features."
       },
       {

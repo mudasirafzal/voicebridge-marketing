@@ -22,7 +22,7 @@
     "navSettings": "Settings"
   },
   "boardScreenshot": {
-    "headerTitle": "VoiceBridge",
+    "headerTitle": "VoiceBridge Pro",
     "greeting": "Hi, Musa 👋",
     "card1Label": "I need water",
     "card2Label": "I am hungry",
@@ -152,7 +152,7 @@
     "navSettings": "⚙️ Settings"
   },
   "therapyCenterScreenshot": {
-    "brandName": "VoiceBridge",
+    "brandName": "VoiceBridge Pro",
     "brandRole": "Therapy Center",
     "navOverview": "Overview",
     "navFamilies": "Families",

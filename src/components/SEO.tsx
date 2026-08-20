@@ -7,7 +7,7 @@ interface SEOProps {
 
 export default function SEO({ title, description }: SEOProps) {
   useEffect(() => {
-    document.title = `${title} | VoiceBridge`
+    document.title = `${title} | VoiceBridge Pro`
     if (description) {
       let meta = document.querySelector<HTMLMetaElement>('meta[name="description"]')
       if (!meta) {

@@ -1,18 +1,18 @@
 {
   "seo": {
     "title": "Features",
-    "description": "Explore all VoiceBridge features: visual communication cards, real-time parent alerts, therapy center dashboards, bilingual support, and more."
+    "description": "Explore all VoiceBridge Pro features: visual communication cards, real-time parent alerts, therapy center dashboards, bilingual support, and more."
   },
   "hero": {
     "badge": "Full Feature Set",
     "titleLine1": "Built for Real",
     "titleLine2": "Communication Needs",
-    "description": "Every feature in VoiceBridge was designed around a real challenge faced by families of non-verbal children. Nothing is there for show — everything serves a purpose."
+    "description": "Every feature in VoiceBridge Pro was designed around a real challenge faced by families of non-verbal children. Nothing is there for show — everything serves a purpose."
   },
   "items": {
     "communicationBoard": {
       "title": "Visual Communication Board",
-      "tagline": "The heart of VoiceBridge",
+      "tagline": "The heart of VoiceBridge Pro",
       "description": "A fully customizable visual board that gives non-verbal children a powerful, intuitive way to communicate their needs and feelings.",
       "benefits": [
         "Pre-built library of communication cards",
@@ -60,7 +60,7 @@
     "trilingual": {
       "title": "Trilingual: English, Urdu & Arabic",
       "tagline": "Communication without borders",
-      "description": "VoiceBridge offers complete trilingual support for English, Urdu, and Arabic-speaking families — card labels, text-to-speech audio, and the full app interface.",
+      "description": "VoiceBridge Pro offers complete trilingual support for English, Urdu, and Arabic-speaking families — card labels, text-to-speech audio, and the full app interface.",
       "benefits": [
         "All card labels available in English, Urdu, and Arabic",
         "Text-to-speech in all three languages",
@@ -85,7 +85,7 @@
     "privacySecurity": {
       "title": "Privacy & Security",
       "tagline": "Your family's data stays yours",
-      "description": "We take the privacy of children seriously. VoiceBridge is COPPA compliant, uses end-to-end encryption, and never sells or shares user data.",
+      "description": "We take the privacy of children seriously. VoiceBridge Pro is COPPA compliant, uses end-to-end encryption, and never sells or shares user data.",
       "benefits": [
         "COPPA compliant — designed for children",
         "End-to-end encryption for all data",
@@ -98,7 +98,7 @@
     "crossPlatform": {
       "title": "Cross-Platform Access",
       "tagline": "Works on any device",
-      "description": "VoiceBridge runs in any modern web browser — on tablets, phones, and desktop computers — without requiring an app download. Use it anywhere.",
+      "description": "VoiceBridge Pro runs in any modern web browser — on tablets, phones, and desktop computers — without requiring an app download. Use it anywhere.",
       "benefits": [
         "Works on iOS, Android, Windows, macOS",
         "Optimized for tablet use by children",
@@ -109,7 +109,7 @@
     "personalization": {
       "title": "Personalization & Customization",
       "tagline": "Built around your child",
-      "description": "No two children are alike. VoiceBridge lets you fully customize the communication board, card categories, colors, and layout to match your child's specific needs.",
+      "description": "No two children are alike. VoiceBridge Pro lets you fully customize the communication board, card categories, colors, and layout to match your child's specific needs.",
       "benefits": [
         "Drag-and-drop card arrangement",
         "Adjustable grid size for accessibility",
@@ -119,7 +119,7 @@
     }
   },
   "cta": {
-    "title": "Ready to explore VoiceBridge?",
+    "title": "Ready to explore VoiceBridge Pro?",
     "talkToUs": "Talk to Us"
   }
 }

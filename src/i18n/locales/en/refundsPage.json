@@ -1,18 +1,18 @@
 {
   "seo": {
-    "title": "Refunds & Cancellations | VoiceBridge",
-    "description": "VoiceBridge's refund and cancellation policy for the one-time instant account approval fee."
+    "title": "Refunds & Cancellations | VoiceBridge Pro",
+    "description": "VoiceBridge Pro's refund and cancellation policy for the one-time instant account approval fee."
   },
   "hero": {
     "badge": "Policy",
     "title": "Refunds & Cancellations",
     "effectiveDate": "Effective date: 1 August 2026",
-    "intro": "VoiceBridge's core features are free for families. This page explains the refund and cancellation policy for the one optional paid service we currently offer."
+    "intro": "VoiceBridge Pro's core features are free for families. This page explains the refund and cancellation policy for the one optional paid service we currently offer."
   },
   "summary": {
     "title": "Quick summary",
     "items": [
-      "Core VoiceBridge features (communication board, alerts, profiles) are free — nothing to refund there.",
+      "Core VoiceBridge Pro features (communication board, alerts, profiles) are free — nothing to refund there.",
       "The only paid service is a one-time ₹499 fee for instant account approval.",
       "This fee is refundable within 7 days if you're not satisfied, as long as the account hasn't been actively used.",
       "There is no recurring subscription today, so there's nothing to cancel — future subscription plans will have their own terms."
@@ -24,7 +24,7 @@
       "content": [
         {
           "subtitle": "Instant Account Approval",
-          "text": "New accounts normally wait for a VoiceBridge administrator to manually review and approve them. To skip that wait, we offer an optional one-time payment of ₹499 (INR) that approves your account automatically as soon as the payment is confirmed. This is the only paid product or service on VoiceBridge at this time — every other feature of the app is free."
+          "text": "New accounts normally wait for a VoiceBridge Pro administrator to manually review and approve them. To skip that wait, we offer an optional one-time payment of ₹499 (INR) that approves your account automatically as soon as the payment is confirmed. This is the only paid product or service on VoiceBridge Pro at this time — every other feature of the app is free."
         }
       ]
     },
@@ -55,11 +55,11 @@
       "content": [
         {
           "subtitle": "No recurring billing today",
-          "text": "VoiceBridge does not currently charge any recurring or subscription fees, so there is nothing to cancel. If we introduce subscription plans in the future, this page will be updated with clear cancellation terms before those plans launch."
+          "text": "VoiceBridge Pro does not currently charge any recurring or subscription fees, so there is nothing to cancel. If we introduce subscription plans in the future, this page will be updated with clear cancellation terms before those plans launch."
         },
         {
           "subtitle": "Closing your account",
-          "text": "You can stop using VoiceBridge and request account deletion at any time by contacting info@mstechlabs.com. This does not retroactively entitle you to a refund of the instant-approval fee outside the eligibility window described above."
+          "text": "You can stop using VoiceBridge Pro and request account deletion at any time by contacting info@mstechlabs.com. This does not retroactively entitle you to a refund of the instant-approval fee outside the eligibility window described above."
         }
       ]
     }

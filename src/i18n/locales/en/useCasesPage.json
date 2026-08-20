@@ -1,19 +1,19 @@
 {
   "seo": {
     "title": "Use Cases",
-    "description": "See how VoiceBridge supports parents, therapy centers, schools, special education teachers, and NGOs and community health programs across South Asia and beyond."
+    "description": "See how VoiceBridge Pro supports parents, therapy centers, schools, special education teachers, and NGOs and community health programs across South Asia and beyond."
   },
   "hero": {
-    "titleLine1": "VoiceBridge Works for",
+    "titleLine1": "VoiceBridge Pro Works for",
     "titleLine2": "Every Family's Story",
-    "description": "From parents at home to therapy centers to schools and NGOs — VoiceBridge adapts to where communication needs to happen."
+    "description": "From parents at home to therapy centers to schools and NGOs — VoiceBridge Pro adapts to where communication needs to happen."
   },
   "keyBenefitsLabel": "Key Benefits",
   "useCases": {
     "parentAtHome": {
       "persona": "👩 Parent at Home",
       "title": "Parents & Primary Caregivers",
-      "scenario": "Aisha has a 7-year-old son who is largely non-verbal. Before VoiceBridge, she could only guess when he was hungry, thirsty, or in pain. Now his communication board lives on an old tablet by the couch. He taps what he needs, and Aisha gets a notification on her phone — even when she's in another room.",
+      "scenario": "Aisha has a 7-year-old son who is largely non-verbal. Before VoiceBridge Pro, she could only guess when he was hungry, thirsty, or in pain. Now his communication board lives on an old tablet by the couch. He taps what he needs, and Aisha gets a notification on her phone — even when she's in another room.",
       "benefits": [
         "Know what your child needs in real-time",
         "Build communication habits through daily use",
@@ -27,7 +27,7 @@
     "extendedFamily": {
       "persona": "👴 Extended Family Caregiver",
       "title": "Grandparents & Relatives",
-      "scenario": "Rehman looks after his grandson two days a week while his daughter works. Though he loves his grandson deeply, communication was always difficult and stressful. With VoiceBridge, even a grandparent with minimal tech experience can read the notification and respond to a need within seconds.",
+      "scenario": "Rehman looks after his grandson two days a week while his daughter works. Though he loves his grandson deeply, communication was always difficult and stressful. With VoiceBridge Pro, even a grandparent with minimal tech experience can read the notification and respond to a need within seconds.",
       "benefits": [
         "No technical expertise required to use",
         "Notifications work on any smartphone",
@@ -56,7 +56,7 @@
     "specialEdSchool": {
       "persona": "🏫 Special Education School",
       "title": "Schools & Special Education Programs",
-      "scenario": "A special needs school uses VoiceBridge in classrooms alongside traditional AAC methods. Teachers configure shared classroom boards with common phrases. Students who previously struggled to communicate with teaching staff are now expressing themselves independently.",
+      "scenario": "A special needs school uses VoiceBridge Pro in classrooms alongside traditional AAC methods. Teachers configure shared classroom boards with common phrases. Students who previously struggled to communicate with teaching staff are now expressing themselves independently.",
       "benefits": [
         "Classroom-wide boards for shared phrases",
         "Individual student profiles",
@@ -70,7 +70,7 @@
     "specialEdTeacher": {
       "persona": "👩‍🏫 Special Education Teacher",
       "title": "Special Education Teachers",
-      "scenario": "Mrs. Sana teaches a class of 8 children with varying communication needs. She uses VoiceBridge to create individual boards for each student, and a shared class board for common needs like \"bathroom\", \"water\", and \"all done\". She monitors communications from the teacher dashboard during class.",
+      "scenario": "Mrs. Sana teaches a class of 8 children with varying communication needs. She uses VoiceBridge Pro to create individual boards for each student, and a shared class board for common needs like \"bathroom\", \"water\", and \"all done\". She monitors communications from the teacher dashboard during class.",
       "benefits": [
         "Individual and shared classroom boards",
         "Real-time class monitoring dashboard",
@@ -84,7 +84,7 @@
     "ngoProgram": {
       "persona": "🌍 NGO & Community Program",
       "title": "NGOs & Community Health Programs",
-      "scenario": "An NGO running communication support programs for people of determination across rural Punjab distributes tablets pre-loaded with VoiceBridge to families who can't afford traditional AAC devices. The Urdu language support and low device requirements make it accessible even in lower-resource settings.",
+      "scenario": "An NGO running communication support programs for people of determination across rural Punjab distributes tablets pre-loaded with VoiceBridge Pro to families who can't afford traditional AAC devices. The Urdu language support and low device requirements make it accessible even in lower-resource settings.",
       "benefits": [
         "Low hardware requirements — runs on old tablets",
         "Full Urdu language support",
@@ -98,6 +98,6 @@
   },
   "cta": {
     "title": "Which story is yours?",
-    "description": "Whatever your situation, VoiceBridge can be customized to fit. Start here today — no commitment required."
+    "description": "Whatever your situation, VoiceBridge Pro can be customized to fit. Start here today — no commitment required."
   }
 }

@@ -20,7 +20,7 @@ interface AppCTAButtonsProps {
 }
 
 /**
- * The three ways to get VoiceBridge today: use it on the web, or download the
+ * The three ways to get VoiceBridge Pro today: use it on the web, or download the
  * Android APK directly (no Play Store listing yet). iOS/Play Store are noted
  * as coming soon rather than linked, since there's nothing to link to yet.
  */
